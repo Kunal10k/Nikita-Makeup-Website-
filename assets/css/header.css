@@ -1,0 +1,190 @@
+:root {
+    --font-3: 'Cormorant Garamond', serif;
+    --font4: 'Yantramanav', sans-serif;
+    --headling: 45px;
+    --subheding: 25px;
+    --para: 15px;
+
+    --pearl: #FFFDFA;
+
+    --blush: #F4C5BD;
+
+    --dusk: #C98D73;
+
+    --glow: #F9E6DE;
+
+    --caramel: #D7AD8B;
+
+    --ruby: #AF2E2E;
+}
+
+.dropdown-item {
+    font-family: var(--font4);
+}
+
+/* HEADER STYLE */
+
+.navbar {
+    background: #ffffff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+    color: #c2185b;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #c2185b;
+}
+
+/* OFFCANVAS STYLE */
+
+.offcanvas {
+    width: 260px;
+}
+
+.offcanvas-body .nav-link {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.nav-link {
+    text-transform: uppercase;
+
+}
+
+.navbar .nav-link.active {
+    color: var(--ruby) !important;
+    /* তোমার brand color */
+}
+
+
+.book-btn {
+
+    background: var(--ruby);
+    color: #fff;
+    border: none;
+    padding: 8px 22px;
+    /* border-radius: 40px; */
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.3s ease;
+
+}
+
+
+
+.book-btn:hover {
+
+    background: var(--ruby);
+    transform: translateY(-2px);
+
+}
+
+/* .offcanvas-header {
+    background-color: #C98D73;
+} */
+
+
+@media(max-width:991px) {
+
+    .book-btn {
+
+        width: 100%;
+
+    }
+
+}
+
+.dropdown-item {
+    text-transform: uppercase;
+}
+
+.book-btn2 {
+
+    border: 1px solid #fff !important;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.3s ease;
+    background-color: transparent;
+
+}
+
+
+
+.offcanvas-header .btn-close {
+    /* default style reset */
+    opacity: 1;
+    background-color: transparent;
+
+    /* make icon black */
+    filter: brightness(0);
+
+    /* optional spacing (তোমার আগেরটা রাখা হলো) */
+    padding: calc(var(--bs-offcanvas-padding-y) * .5) calc(var(--bs-offcanvas-padding-x) * .5);
+    margin: calc(-.5 * var(--bs-offcanvas-padding-y)) calc(-.5 * var(--bs-offcanvas-padding-x)) calc(-.5 * var(--bs-offcanvas-padding-y)) auto;
+
+    /* smooth effect */
+    transition: 0.3s ease;
+}
+
+/* hover effect */
+.offcanvas-header .btn-close:hover {
+    transform: rotate(90deg);
+    opacity: 0.7;
+}
+
+
+.navbar .nav-link {
+    position: relative;
+    /* color: var(--ruby); */
+    transition: color 0.3s ease;
+    font-family: var(--font4);
+}
+
+/* underline create */
+/* .navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: var(--ruby);
+    transition: width 0.3s ease;
+} */
+
+/* hover effect */
+/* .navbar .nav-link:hover::after {
+    width: 100%;
+} */
+
+/* optional hover color */
+.navbar .nav-link:hover {
+    color: var(--ruby) !important;
+}
+
+.sticky-top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1020;
+}
