@@ -154,12 +154,18 @@
 
 
                     <p class="para">
-                        Their rebrand introduced a bold, contemporary identity that balances refinement with personality — positioning them clearly for discerning, style-conscious couples. <br> <br>
+                        Their rebrand introduced a bold, contemporary identity that balances refinement with personality
+                        — positioning them clearly for discerning, style-conscious couples. <br> <br>
 
-                        I loved working with Chelsea. Her dedication to bringing each couple’s unique story to life was a true reflection of the personalised, considered nature of luxury
+                        I loved working with Chelsea. Her dedication to bringing each couple’s unique story to life was
+                        a true reflection of the personalised, considered nature of luxury
                     </p>
 
-                    <a href="#" class="view_project">View the Project</a>
+
+
+                    <a href="contact.php" class="service-btn mt-3">
+                        <span> View the Project <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -178,7 +184,8 @@
 <section class="cta_portfoli">
     <div class="container">
         <h5 class="headline text-center">
-            Using strategy, artistry, and emotional intelligence, the brand identities I craft are deep and quietly powerful.
+            Using strategy, artistry, and emotional intelligence, the brand identities I craft are deep and quietly
+            powerful.
         </h5>
 
         <h6 class="text-center">CHELSEA, BTO EVENTS</h6>
@@ -193,71 +200,50 @@
 
 <section class="my_portfolio section-gap">
     <div class="container">
-        <h3 class="headline text-center">Here, luxury doesn’t have one look.
+
+        <h3 class="headline text-center">
+            Here, luxury doesn’t <span>have one look.</span>
         </h3>
 
         <div class="my_grid_portfoli mt-4">
+
             <div class="my_items">
-                <img src="assets/img/home/2.jpg" alt="">
-                <div class="my_p_box">
-                    <a href="#" class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
-
+                <a href="assets/img/services/occa/oca-1 (1).jpg" data-fancybox="gallery">
+                    <img src="assets/img/services/occa/oca-1 (1).jpg" alt="">
+                </a>
             </div>
+
             <div class="my_items">
-                <img src="assets/img/home/1.png" alt="">
-
-                <div class="my_p_box">
-                    <a href="#" class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
-
+                <a href="assets/img/services/occa/oca-1 (2).jpg" data-fancybox="gallery">
+                    <img src="assets/img/services/occa/oca-1 (2).jpg" alt="">
+                </a>
             </div>
+
             <div class="my_items">
-                <img src="assets/img/home/3.jpg" alt="">
-
-                <div class="my_p_box">
-                    <a href="#" class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
-
+                <a href="assets/img/services/occa/oca-1 (3).jpg" data-fancybox="gallery">
+                    <img src="assets/img/services/occa/oca-1 (3).jpg" alt="">
+                </a>
             </div>
+
             <div class="my_items">
-                <img src="assets/img/home/abt.jpg" alt="">
-
-                <div class="my_p_box">
-                    <a href="#" class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
-
+                <a href="assets/img/services/occa/oca-1 (4).jpg" data-fancybox="gallery">
+                    <img src="assets/img/services/occa/oca-1 (4).jpg" alt="">
+                </a>
             </div>
+
             <div class="my_items">
-                <img src="assets/img/home/follow-us/01- (3).jpeg" alt="">
-
-                <div class="my_p_box">
-                    <a href="#" class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
-
+                <a href="assets/img/services/occa/oca-1 (5).jpg" data-fancybox="gallery">
+                    <img src="assets/img/services/occa/oca-1 (5).jpg" alt="">
+                </a>
             </div>
+
             <div class="my_items">
-                <img src="assets/img/home/follow-us/01- (3).jpg" alt="">
-
-                <div class="my_p_box">
-                    <a href="#" class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
-
+                <a href="assets/img/services/occa/oca-1 (6).jpg" data-fancybox="gallery">
+                    <img src="assets/img/services/occa/oca-1 (6).jpg" alt="">
+                </a>
             </div>
+
         </div>
     </div>
 </section>
-
 <?php include 'subpages/footer.php' ?>

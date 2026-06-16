@@ -188,3 +188,88 @@
     top: 0;
     z-index: 1020;
 }
+
+
+.navbar-nav {
+
+    .nav-item {
+
+        .nav-link {
+            position: relative;
+            display: inline-block;
+            color: #222;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color .3s ease;
+
+            // Underline শুধুমাত্র normal menu এর জন্য
+            &:not(.dropdown-toggle) {
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: -6px;
+                    width: 100%;
+                    height: 2px;
+                    background: var(--ruby);
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: transform .35s ease;
+                }
+
+                &:hover::after,
+                &.active::after {
+                    transform: scaleX(1);
+                }
+            }
+
+            &:hover,
+            &.active {
+                color: var(--ruby);
+            }
+        }
+
+        // Dropdown link
+        .dropdown-toggle {
+
+            &::after {
+                border: none;
+                content: "\f107";
+                font-family: "Font Awesome 6 Free";
+                font-weight: 900;
+                margin-left: 8px;
+                font-size: 12px;
+                vertical-align: middle;
+                transition: transform .3s ease;
+            }
+
+            &[aria-expanded="true"]::after {
+                transform: rotate(180deg);
+            }
+
+            // dropdown এ underline disable
+            &::before {
+                display: none;
+            }
+        }
+
+        .dropdown-menu {
+            border: 0;
+            border-radius: 12px;
+            padding: 10px 0;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, .08);
+
+            .dropdown-item {
+                padding: 10px 20px;
+                transition: all .3s ease;
+
+                &:hover {
+                    color: var(--ruby);
+                    background: rgba(0, 0, 0, .04);
+                    padding-left: 25px;
+                }
+            }
+        }
+    }
+}

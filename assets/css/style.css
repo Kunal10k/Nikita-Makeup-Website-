@@ -41,7 +41,7 @@ body {
 }
 
 .headline {
-    font-size: 45px;
+    font-size: 40px;
     font-family: var(--font-3);
     font-weight: 500;
     text-transform: uppercase;
@@ -110,9 +110,9 @@ a {
     transition: 0.3s ease;
 }
 
-a:hover {
+/* a:hover {
     color: #c2185b;
-}
+} */
 
 
 /* ===============================
@@ -466,94 +466,141 @@ h1 {
 /* ===============================
    MODAL HEADER
 ================================= */
-
-.modal-header {
-    background: linear-gradient(135deg, var(--ruby), #c2185b);
-    color: #fff;
-    border-bottom: none;
-    padding: 20px 25px;
-}
-
-.modal-title {
-    font-weight: 700;
-    font-size: 20px;
-}
-
-
-/* close button white */
-
-.btn-close {
-    filter: invert(1);
-}
-
-
-/* ===============================
-   MODAL BODY
-================================= */
-
-.modal-body {
-    padding: 30px;
-    background: #fff;
-}
-
-
-/* ===============================
-   INPUT FIELD STYLE
-================================= */
-
-.modal-body .form-control {
-    border-radius: 10px;
-    padding: 12px 14px;
-    border: 1px solid #eee;
-    transition: 0.3s ease;
-}
-
-.modal-body .form-control:focus {
-    border-color: var(--ruby);
-    box-shadow: 0 0 0 3px rgba(200, 0, 90, 0.15);
-}
-
-
-/* ===============================
-   SUBMIT BUTTON STYLE
-================================= */
-
-.modal-body .btn-primary {
-    background: linear-gradient(135deg, var(--ruby), #c2185b);
+.modal-content {
     border: none;
-    border-radius: 40px;
-    padding: 12px;
-    font-weight: 600;
-    font-size: 16px;
-    transition: 0.4s ease;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, .18);
+    animation: modalFadeIn .45s ease;
+
+    .modal-header {
+        position: relative;
+        background: linear-gradient(135deg,
+                var(--ruby) 0%,
+                #c2185b 50%,
+                #8e0038 100%);
+        border: 0;
+        padding: 24px 30px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(120deg,
+                    transparent 30%,
+                    rgba(255, 255, 255, .15) 50%,
+                    transparent 70%);
+            pointer-events: none;
+        }
+
+        .modal-title {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: .5px;
+            margin: 0;
+        }
+
+        .btn-close {
+            filter: brightness(0) invert(1);
+            opacity: 1;
+            transition: .3s ease;
+
+            &:hover {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    .modal-body {
+        padding: 35px 30px;
+        background: #fff;
+
+        .form-label {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .form-control,
+        .form-select {
+            height: 52px;
+            border: 1px solid #e6e6e6;
+            border-radius: 12px;
+            padding: 0 16px;
+            background: #fafafa;
+            transition: all .35s ease;
+
+            &:focus {
+                background: #fff;
+                border-color: var(--ruby);
+                box-shadow: 0 0 0 4px rgba(200, 0, 90, .12);
+            }
+
+            &::placeholder {
+                color: #999;
+            }
+        }
+
+        textarea.form-control {
+            min-height: 120px;
+            padding-top: 15px;
+        }
+
+        .btn-primary {
+            position: relative;
+            width: 100%;
+            height: 54px;
+            border: none;
+            /* border-radius: 50px; */
+            overflow: hidden;
+            background: linear-gradient(135deg,
+                    var(--ruby),
+                    #c2185b);
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: .5px;
+            transition: all .35s ease;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -120%;
+                width: 60px;
+                height: 100%;
+                background: rgba(255, 255, 255, .25);
+                transform: skewX(-25deg);
+                transition: .7s ease;
+            }
+
+            &:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 15px 35px rgba(194, 24, 91, .35);
+
+                &::before {
+                    left: 130%;
+                }
+            }
+        }
+    }
 }
 
-.modal-body .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+.modal-backdrop.show {
+    opacity: .7;
+    backdrop-filter: blur(5px);
 }
-
-.modal-title {
-    color: #fff;
-}
-
-
-/* ===============================
-   MODAL OPEN ANIMATION
-================================= */
 
 @keyframes modalFadeIn {
-
     from {
         opacity: 0;
-        transform: translateY(40px) scale(0.95);
+        transform: translateY(40px) scale(.92);
     }
 
     to {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
-
 }
 
 /* modal section  */
@@ -612,50 +659,81 @@ h1 {
 }
 
 
-
 .service-btn {
     position: relative;
-    background-color: var(--ruby);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px;
+    min-width: 180px;
+    height: 55px;
+    background: var(--ruby);
     color: #fff;
-    padding: 12px 26px;
-    display: inline-block;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    text-decoration: none;
     font-weight: 600;
-    border: none;
+    letter-spacing: 1px;
     overflow: hidden;
-    transition: all 0.4s ease;
-}
-
-/* hover effect layer */
-.service-btn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    transition: all 0.4s ease;
-    z-index: 0;
-}
-
-/* text always top */
-.service-btn span {
-    position: relative;
+    cursor: pointer;
+    border: none;
     z-index: 1;
-}
 
-/* hover animation */
-.service-btn:hover::before {
-    left: 0;
-}
+    transition: {
+        property: transform, box-shadow;
+        duration: .35s;
+        timing-function: ease;
+    }
 
-.service-btn:hover {
-    color: #fff;
-    letter-spacing: 2px;
-}
+    span {
+        position: relative;
+        z-index: 3;
+        transition: transform .35s ease;
+    }
 
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: #111;
+        transform: translateX(-100%);
+        transition: transform .4s ease;
+        z-index: 1;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -120%;
+        width: 50px;
+        height: 200%;
+        background: rgba(255, 255, 255, .2);
+        transform: rotate(25deg);
+        transition: left .7s ease;
+        z-index: 2;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, .2);
+
+        &::before {
+            transform: translateX(0);
+        }
+
+        &::after {
+            left: 130%;
+        }
+
+        span {
+            transform: scale(1.03);
+        }
+    }
+
+    &:active {
+        transform: translateY(-1px);
+    }
+}
 
 
 
@@ -1438,11 +1516,11 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    min-height: 500px;
+    min-height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 /* .inner_banner::after {
@@ -1585,9 +1663,9 @@ h1 {
     transition: .3s;
 }
 
-.submit-btn:hover {
+/* .submit-btn:hover {
     background: #c2185b;
-}
+} */
 
 
 /* RESPONSIVE */

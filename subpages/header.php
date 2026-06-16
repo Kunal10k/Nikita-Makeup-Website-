@@ -12,7 +12,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
@@ -37,7 +38,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
 
 
@@ -47,7 +49,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
 
 
 
@@ -97,9 +100,7 @@
 
                 <li class="nav-item d-md-none d-block">
 
-                    <button class="book-btn ms-2"
-                        data-bs-toggle="modal"
-                        data-bs-target="#bookingModal">
+                    <button class="book-btn ms-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
                         <i class="fa-solid fa-calendar-check"></i>
                         Book Now
@@ -111,9 +112,7 @@
 
                 <!-- MOBILE TOGGLE BUTTON -->
 
-                <button class="navbar-toggler border-0 shadow-none"
-                    type="button"
-                    data-bs-toggle="offcanvas"
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#mobileMenu">
 
                     <i class="fa-solid fa-bars"></i>
@@ -181,29 +180,26 @@
 
 
                         <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle <?php if (basename($_SERVER['PHP_SELF']) == 'learn-with-us.php' || basename($_SERVER['PHP_SELF']) == 'makeup-packages.php') echo 'active'; ?>"
-        href="#"
-        id="servicesDropdown"
-        role="button"
-        data-bs-toggle="dropdown"
-        aria-expanded="false">
-        Services
-    </a>
+                            <a class="nav-link dropdown-toggle <?php if (basename($_SERVER['PHP_SELF']) == 'learn-with-us.php' || basename($_SERVER['PHP_SELF']) == 'makeup-packages.php') echo 'active'; ?>"
+                                href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
 
-    <ul class="dropdown-menu">
-        <li>
-            <a class="dropdown-item" href="learn-with-us.php">
-                Learn With Us
-            </a>
-        </li>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="learn-with-us.php">
+                                        Learn With Us
+                                    </a>
+                                </li>
 
-        <li>
-            <a class="dropdown-item" href="makeup-packages.php">
-                Makeup Packages
-            </a>
-        </li>
-    </ul>
-</li>
+                                <li>
+                                    <a class="dropdown-item" href="makeup-packages.php">
+                                        Makeup Packages
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
 
                         <li class="nav-item">
                             <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio') echo 'active'; ?>"
@@ -224,14 +220,14 @@
 
                         <li class="nav-item">
 
-                            <button class="book-btn ms-2"
-                                data-bs-toggle="modal"
-                                data-bs-target="#bookingModal">
+                            <button class="service-btn ms-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
-                                <i class="fa-solid fa-calendar-check"></i>
-                                Book Now
 
+
+                                <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
                             </button>
+
+
 
                         </li>
 
@@ -246,17 +242,13 @@
 
         <!-- OFFCANVAS MOBILE MENU -->
 
-        <div class="offcanvas offcanvas-start"
-            tabindex="-1"
-            id="mobileMenu">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
 
             <div class="offcanvas-header">
 
                 <h5 class="offcanvas-title">Menu</h5>
 
-                <button type="button"
-                    class="btn-close"
-                    data-bs-dismiss="offcanvas"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
 
             </div>
 
@@ -280,31 +272,28 @@
                         </a>
                     </li>
 
-              
-                        <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle <?php if (basename($_SERVER['PHP_SELF']) == 'learn-with-us.php' || basename($_SERVER['PHP_SELF']) == 'makeup-packages.php') echo 'active'; ?>"
-        href="#"
-        id="servicesDropdown"
-        role="button"
-        data-bs-toggle="dropdown"
-        aria-expanded="false">
-        Services
-    </a>
 
-    <ul class="dropdown-menu">
-        <li>
-            <a class="dropdown-item" href="learn-with-us.php">
-                Learn With Us
-            </a>
-        </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle <?php if (basename($_SERVER['PHP_SELF']) == 'learn-with-us.php' || basename($_SERVER['PHP_SELF']) == 'makeup-packages.php') echo 'active'; ?>"
+                            href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
 
-        <li>
-            <a class="dropdown-item" href="makeup-packages.php">
-                Makeup Packages
-            </a>
-        </li>
-    </ul>
-</li>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="learn-with-us.php">
+                                    Learn With Us
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="makeup-packages.php">
+                                    Makeup Packages
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio') echo 'active'; ?>"

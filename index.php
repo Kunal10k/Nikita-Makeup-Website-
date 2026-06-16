@@ -31,9 +31,12 @@
                     </p>
 
                     <div class="set_us">
-                        <button class="book-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">
-                            MAKE AN APPOINTMENT
-                        </button>
+
+
+
+                        <a href="contact.php" class="service-btn mt-3">
+                            <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
                         <!-- <button class="book-btn2">
                             VIEW OUR WORK
                         </button> -->
@@ -55,9 +58,9 @@
                     </p>
 
                     <div class="set_us">
-                        <button class="book-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">
-                            MAKE AN APPOINTMENT
-                        </button>
+                        <a href="contact.php" class="service-btn mt-3">
+                            <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
                         <!-- <button class="book-btn2">
                             VIEW OUR WORK
                         </button> -->
@@ -79,9 +82,9 @@
                     </p>
 
                     <div class="set_us">
-                        <button class="book-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">
-                            MAKE AN APPOINTMENT
-                        </button>
+                        <a href="contact.php" class="service-btn mt-3">
+                            <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
                         <!-- <button class="book-btn2">
                             VIEW OUR WORK
                         </button> -->
@@ -293,19 +296,28 @@
 
         <div class="mission-content">
             <!-- <h3 class="headline js-splittext-lines">About </h3> -->
-            <div class="w-md-100 w-75 mx-auto">
+            <div class="w-md-100 w-100 mx-auto">
                 <p class="para ">
-                    “What you created is beyond anything I ever could have dreamed up on my own. It feels like you
-                    reached into my brain and heart and translated everything I care about into something visually
-                    stunning and deeply intentional.
+                    Hey,
+                    I’m Nikita — an experienced bridal makeup artist based in Kolkata, travelling across India and
+                    internationally to create soft, natural, glowing, skin-like makeup looks for my brides.
+
+                    I truly believe that every face is unique and beautiful in its own way, and I approach each bride
+                    with immense care, attention, and love. Creating makeup that feels like you — elevated, confident,
+                    and comfortable — is always my priority.
+
+                    Soft glam bridal makeup is my signature style, but what I love most is customising every look to
+                    reflect each bride’s individual personality, preferences, and vision.
+
+                    Whether you’re a royal traditional bride or someone who loves a more modern, contemporary aesthetic,
+                    we’ll work together to create your dream bridal look — thoughtfully, beautifully, and step by step.
 
                 </p>
 
-                <h4>“It’s elevated, luxurious, emotional, warm, modern, and absolutely <b>unmistakably me</b>.”
-                </h4>
+                <!-- <h4>“It’s elevated, luxurious, emotional, warm, modern, and absolutely <b>unmistakably me</b>.”
+                </h4> -->
 
-                <img src="https://img.freepik.com/premium-vector/signature_951413-443.jpg?semt=ais_hybrid&w=740&q=80"
-                    width="130" class="m-auto">
+                <img src="assets/img/logo.jpg" alt="abt" width="250" class="m-auto">
             </div>
 
             <div class="mt-1">
@@ -586,7 +598,7 @@
 
 
 
-        <div class="photo_gallery owl-carousel d-none mt-3">
+        <!-- <div class="photo_gallery owl-carousel d-block mt-3  d-md-none d-block">
 
             <div class="gallery-item">
                 <a href="assets/img/home/gallery/01- (1).jpeg" data-fancybox="gallery">
@@ -624,7 +636,7 @@
                 </a>
             </div>
 
-        </div>
+        </div> -->
 
         <div class="service-marquee d-md-none d-block mt-3">
             <div class="marquee-track">
@@ -820,8 +832,10 @@
             This is where your brand shifts tiers overnight.
         </p>
 
-        <a href="#" class="cta-btn">EXPLORE THE EXPERIENCE</a>
 
+        <a href="#" class="service-btn mt-3">
+            <span>EXPLORE THE EXPERIENCE <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
     </div>
 </section>
 
@@ -901,9 +915,12 @@
 
                             <!-- BUTTON -->
                             <div class="col-12">
-                                <button type="submit" class="lux_submit_btn">
-                                    Submit
+
+
+                                <button class="service-btn lux_submit_btn" type="submit">
+                                    <span> VIEW FULL GALLERY <i class="fa-solid fa-arrow-right"></i></span>
                                 </button>
+
                             </div>
 
                         </div>

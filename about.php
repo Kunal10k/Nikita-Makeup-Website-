@@ -24,18 +24,35 @@
             </div>
             <div class="col-md-7 d-flex justify-content-center align-items-center">
                 <div class="abut_desc">
-                    <h3 class="headline">Because here, we do REAL resonant luxury that gives REAL receipts</h3>
+                    <!-- <h3 class="headline">Because here, we do REAL resonant luxury that gives REAL receipts</h3> -->
                     <p class="para">
-                        No, luxury isn’t about pretence, surface-level ‘shoulds’, being ‘perfect’, or ‘accepted’ by some
-                        elitist group you’d never dare to (or want to!) approach. <br>
+                        Hey!
+                        I’m Nikita — but you can totally call me Nikki. I love when my brides and community think of me
+                        as their makeup bestie.
 
-                        Real luxury is warmth, connection, meaning; it’s confidence in what feels genuinely right. For
-                        your audience, it’s something extraordinary. They’re invited to see every intricate detail drawn
-                        together.
+                        I’m a makeup artist based out of Kolkata, India, travelling globally for bridal bookings and
+                        creative projects. Known for my soft glam, skin-like finishes, my approach to makeup is all
+                        about creating looks that feel elevated, timeless, and most importantly — like you.
+
+                        Every look is thoughtfully customised keeping in mind your skin type and texture, facial
+                        features, outfit, jewellery, styling, personal preferences, and the overall vibe of your
+                        celebration. Whether you’re someone who loves a classic traditional bridal look or a more
+                        modern, contemporary aesthetic, we’ll create something that feels authentic to you.
+
+                        I know how overwhelming wedding planning can get, which is why I aim to make your bridal
+                        experience feel seamless, calm, and truly memorable from the very beginning. Beyond the makeup
+                        itself, I want to bring a comforting, positive energy to your special day while ensuring the
+                        highest standards of hygiene, care, and personalised attention.
+
+                        Over the past 6+ years, I’ve had the opportunity to work with brides across different skin
+                        types, tones, and textures, and each experience has only strengthened my belief that makeup
+                        should enhance your confidence — never overpower you.
+
+                        If this sounds like the experience you’ve been looking for, I’d love to connect with you. Book a
+                        free consultation call with us, and let’s bring your dream bridal look to life together.
                     </p>
 
-                    <p class="para abt_para">It feels aspirational...with the joy of familiarity.
-                    </p>
+
                 </div>
             </div>
         </div>

@@ -34,7 +34,7 @@
         </div>
 
         <!-- Bridal Makeup -->
-        <div class="row align-items-center service-item gy-5">
+        <div class="row  service-item gy-5">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -65,11 +65,11 @@
                         features, personal style, attire, and overall wedding vibe.
                     </p>
 
-                    <button class="book-btn ms-2 mt-4" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
 
-                        Enquire Now
 
+                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
                     </button>
                 </div>
             </div>
@@ -83,7 +83,7 @@
         </div>
 
         <!-- Engagement & Reception -->
-        <div class="row align-items-center service-item gy-5 flex-lg-row-reverse">
+        <div class="row  service-item gy-5 flex-lg-row-reverse">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -106,11 +106,12 @@
                         Starting From ₹19,000
                     </div>
 
-                    <button class="book-btn ms-2 mt-4" data-bs-toggle="modal" data-bs-target="#bookingModal">
+
+                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
 
-                        Enquire Now
 
+                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
                     </button>
                 </div>
             </div>
@@ -124,7 +125,7 @@
         </div>
 
         <!-- Party Makeup -->
-        <div class="row align-items-center service-item gy-5">
+        <div class="row  service-item gy-5">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -147,11 +148,12 @@
                     <div class="price">
                         Starting From ₹9,500
                     </div>
-                    <button class="book-btn ms-2 mt-4" data-bs-toggle="modal" data-bs-target="#bookingModal">
+
+                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
 
-                        Enquire Now
 
+                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
                     </button>
                 </div>
             </div>
@@ -165,7 +167,7 @@
         </div>
 
         <!-- Editorial Makeup -->
-        <div class="row align-items-center service-item gy-5 flex-lg-row-reverse">
+        <div class="row  service-item gy-5 flex-lg-row-reverse">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -190,11 +192,12 @@
                         Pricing Available Upon Request
                     </div>
 
-                    <button class="book-btn ms-2 mt-4" data-bs-toggle="modal" data-bs-target="#bookingModal">
+
+                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
 
-                        Enquire Now
 
+                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
                     </button>
                 </div>
             </div>
@@ -208,7 +211,7 @@
         </div>
 
         <!-- Destination Weddings -->
-        <div class="row align-items-center service-item gy-5">
+        <div class="row  service-item gy-5">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -233,11 +236,12 @@
                         Pricing Available Upon Request
                     </div>
 
-                    <button class="book-btn ms-2 mt-4" data-bs-toggle="modal" data-bs-target="#bookingModal">
+
+                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
 
-                        Enquire Now
 
+                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
                     </button>
                 </div>
             </div>
@@ -251,6 +255,27 @@
         </div>
 
 
+
+    </div>
+</section>
+
+<section class="mb-5">
+    <div class="container">
+
+        <div class="alert border-0 shadow-sm p-4"
+            style="background:#fff1f1; border-left:5px solid var(--ruby)!important;">
+
+            <i class="fa-solid fa-circle-info me-2" style="color:var(--ruby);"></i>
+
+            <strong style="color:var(--ruby);">Important Note:</strong>
+
+            <span class="text-dark">
+                Bookings are subject to date availability.
+                Travel and accommodation charges may apply for
+                outstation and destination events.
+            </span>
+
+        </div>
 
     </div>
 </section>

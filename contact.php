@@ -64,36 +64,70 @@
             <!-- RIGHT FORM -->
 
             <div class="enquiry-right">
+                <form class="booking-form">
 
-                <form>
+                    <div class="row g-3">
 
-                    <div class="form-row">
-                        <input type="text" placeholder="Your name" required>
-                        <input type="email" placeholder="Your email" required>
-                    </div>
-
-                    <div class="form-row">
-
-                        <!-- PHONE FIELD WITH FLAG -->
-                        <div class="phone-field">
-                            <span class="country-code">🇮🇳 +91</span>
-                            <input type="tel" placeholder="Your phone number" required>
+                        <!-- Name -->
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
                         </div>
 
-                        <input type="text" placeholder="Your location" required>
-                    </div>
+                        <!-- Email -->
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
 
-                    <div class="form-row">
-                        <input type="date" required>
-                    </div>
+                        <!-- Phone -->
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-text">🇮🇳 +91</span>
+                                <input type="tel" class="form-control" placeholder="Your Phone Number" required>
+                            </div>
+                        </div>
 
-                    <div class="form-row">
-                        <textarea placeholder="Your message" rows="4" required class="form-control"></textarea>
-                    </div>
+                        <!-- Location -->
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Event Location" required>
+                        </div>
 
-                    <button type="submit" class="submit-btn">
-                        Submit Enquiry
-                    </button>
+                        <!-- Service Dropdown -->
+                        <div class="col-md-6">
+                            <select class="form-select" required>
+                                <option value="">Select Service</option>
+                                <option>Bridal Makeup</option>
+                                <option>Engagement Makeup</option>
+                                <option>Reception & Pre-Wedding Functions</option>
+                                <option>Party & Occasion Makeup</option>
+                                <option>Editorial & Photoshoot Makeup</option>
+                                <option>Destination Weddings</option>
+                            </select>
+                        </div>
+
+                        <!-- Event Date -->
+                        <div class="col-md-6">
+                            <input type="date" class="form-control" required>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="col-12">
+                            <textarea class="form-control" rows="5"
+                                placeholder="Tell us about your event, preferred makeup style, venue details etc."></textarea>
+                        </div>
+
+
+
+                        <!-- Submit -->
+                        <div class="col-12">
+                            <button type="submit" class="service-btn">
+                                <span>
+                                    Submit Booking
+                                    <i class="fa-solid fa-arrow-right ms-2"></i>
+                                </span>
+                            </button>
+                        </div>
+
+                    </div>
 
                 </form>
 

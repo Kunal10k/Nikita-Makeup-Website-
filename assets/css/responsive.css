@@ -119,6 +119,29 @@
 
     }
 
+    .service-item {
+        flex-direction: column-reverse;
+    }
+
+    .book-btn {
+        width: auto;
+    }
+
+    .service-item {
+        padding: 20px 0;
+
+    }
+
+    .service-content ul {
+        margin: 25px 0;
+        padding-left: 0;
+    }
+
+    .service-content {
+        padding: 0;
+        text-align: left;
+    }
+
     .inner_banner {
         background-attachment: local;
     }

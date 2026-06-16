@@ -242,9 +242,12 @@
             </div>
             <div class="col-md-6">
                 <p class="para">
-                    Our capabilities are rooted in a refined set of core offerings, but every experience is tailored to meet the specific needs of our clients. <br>
+                    Our capabilities are rooted in a refined set of core offerings, but every experience is tailored to
+                    meet the specific needs of our clients. <br>
 
-                    Rather than a one-size-fits-all approach, we craft custom experiences designed around your goals and long-term vision. The result is a white-glove partnership that feels collaborative and gives you the confidence of knowing every detail is expertly handled.
+                    Rather than a one-size-fits-all approach, we craft custom experiences designed around your goals and
+                    long-term vision. The result is a white-glove partnership that feels collaborative and gives you the
+                    confidence of knowing every detail is expertly handled.
                 </p>
             </div>
         </div>
@@ -295,14 +298,12 @@
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed"
-                                        data-bs-toggle="collapse"
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne">
                                         THE TRANSFORMATION
                                     </button>
                                 </h2>
-                                <div id="collapseOne"
-                                    class="accordion-collapse collapse"
+                                <div id="collapseOne" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         Transformation content goes here.
@@ -313,14 +314,12 @@
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed"
-                                        data-bs-toggle="collapse"
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo">
                                         INVESTMENT & TIMELINE
                                     </button>
                                 </h2>
-                                <div id="collapseTwo"
-                                    class="accordion-collapse collapse"
+                                <div id="collapseTwo" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         Timeline content goes here.
@@ -331,14 +330,12 @@
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed"
-                                        data-bs-toggle="collapse"
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree">
                                         THE INVESTMENT COVERS:
                                     </button>
                                 </h2>
-                                <div id="collapseThree"
-                                    class="accordion-collapse collapse"
+                                <div id="collapseThree" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         Investment coverage content goes here.
@@ -351,8 +348,10 @@
 
                         <!-- BUTTON -->
                         <div class="mt-5">
-                            <a href="#" class="project-btn">
-                                START YOUR PROJECT
+
+
+                            <a href="contact.php" class="service-btn mt-3">
+                                <span> Contact Us <i class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </div>
 
@@ -407,83 +406,37 @@
                 <a href="assets/img/services/occa/oca-1 (1).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (1).jpg" alt="">
                 </a>
-
-                <div class="my_p_box">
-                    <a href="assets/img/services/occa/oca-1 (1).jpg"
-                        data-fancybox="gallery"
-                        class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
             </div>
 
             <div class="my_items">
                 <a href="assets/img/services/occa/oca-1 (2).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (2).jpg" alt="">
                 </a>
-
-                <div class="my_p_box">
-                    <a href="assets/img/services/occa/oca-1 (2).jpg"
-                        data-fancybox="gallery"
-                        class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
             </div>
+
             <div class="my_items">
                 <a href="assets/img/services/occa/oca-1 (3).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (3).jpg" alt="">
                 </a>
-
-                <div class="my_p_box">
-                    <a href="assets/img/services/occa/oca-1 (3).jpg"
-                        data-fancybox="gallery"
-                        class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
             </div>
+
             <div class="my_items">
                 <a href="assets/img/services/occa/oca-1 (4).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (4).jpg" alt="">
                 </a>
-
-                <div class="my_p_box">
-                    <a href="assets/img/services/occa/oca-1 (4).jpg"
-                        data-fancybox="gallery"
-                        class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
             </div>
+
             <div class="my_items">
                 <a href="assets/img/services/occa/oca-1 (5).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (5).jpg" alt="">
                 </a>
-
-                <div class="my_p_box">
-                    <a href="assets/img/services/occa/oca-1 (5).jpg"
-                        data-fancybox="gallery"
-                        class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
             </div>
+
             <div class="my_items">
                 <a href="assets/img/services/occa/oca-1 (6).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (6).jpg" alt="">
                 </a>
-
-                <div class="my_p_box">
-                    <a href="assets/img/services/occa/oca-1 (6).jpg"
-                        data-fancybox="gallery"
-                        class="project-link">
-                        MY PROJECT
-                    </a>
-                </div>
             </div>
-
-
 
         </div>
     </div>
@@ -492,11 +445,11 @@
 
 
 <script>
-    Fancybox.bind("[data-fancybox='gallery']", {
-        animated: true,
-        showClass: "fancybox-fadeIn",
-        hideClass: "fancybox-fadeOut",
-    });
+Fancybox.bind("[data-fancybox='gallery']", {
+    animated: true,
+    showClass: "fancybox-fadeIn",
+    hideClass: "fancybox-fadeOut",
+});
 </script>
 
 <?php include 'subpages/footer.php' ?>

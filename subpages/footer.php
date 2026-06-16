@@ -101,35 +101,73 @@
 
             <div class="modal-body">
 
-                <form>
+                <form action="" method="post">
 
-                    <div class="mb-3">
-                        <label class="form-label">Name</label>
-                        <input type="text" class="form-control" placeholder="Enter your name">
+                    <div class="row">
+
+                        <!-- Name -->
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Full Name *</label>
+                            <input type="text" class="form-control" name="name" placeholder="Enter your full name"
+                                required>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Email Address *</label>
+                            <input type="email" class="form-control" name="email" placeholder="Enter your email address"
+                                required>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Phone Number *</label>
+                            <input type="tel" class="form-control" name="phone" placeholder="Enter your phone number"
+                                required>
+                        </div>
+
+                        <!-- Service -->
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Select Service *</label>
+                            <select class="form-select" name="service" required>
+                                <option value="">Choose a Service</option>
+                                <option>Bridal Makeup</option>
+                                <option>Engagement Makeup</option>
+                                <option>Reception & Pre-Wedding Functions</option>
+                                <option>Party & Occasion Makeup</option>
+                                <option>Editorial & Photoshoot Makeup</option>
+                                <option>Destination Weddings</option>
+                            </select>
+                        </div>
+
+                        <!-- Event Date -->
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Event Date *</label>
+                            <input type="date" class="form-control" name="event_date" required>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Event Location *</label>
+                            <input type="text" class="form-control" name="location"
+                                placeholder="Enter city / venue name" required>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="col-12 mb-4">
+                            <label class="form-label">Additional Details</label>
+                            <textarea class="form-control" rows="5" name="message"
+                                placeholder="Tell us about your event, preferred makeup style, venue details, etc."></textarea>
+                        </div>
+
+                        <!-- Submit -->
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary w-100">
+                                Submit Booking Request
+                            </button>
+                        </div>
+
                     </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Email</label>
-                        <input type="email" class="form-control" placeholder="Enter your email">
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" placeholder="Enter phone number">
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Select Date</label>
-                        <input type="date" class="form-control">
-                    </div>
-
-                    <div class="mb-3">
-                        <textarea placeholder="Your message" rows="4" required="" class="form-control"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary w-100">
-                        Submit Booking
-                    </button>
 
                 </form>
 
@@ -174,21 +212,21 @@
 
 
 <script>
-    gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
-    gsap.from(".home_abt_img", {
-        scrollTrigger: {
-            trigger: ".home_abt_img",
-            start: "top 85%",
-            toggleActions: "play none none none"
-        },
+gsap.from(".home_abt_img", {
+    scrollTrigger: {
+        trigger: ".home_abt_img",
+        start: "top 85%",
+        toggleActions: "play none none none"
+    },
 
-        opacity: 0,
-        y: 120,
-        scale: 0.9,
-        duration: 1.2,
-        ease: "power3.out"
-    });
+    opacity: 0,
+    y: 120,
+    scale: 0.9,
+    duration: 1.2,
+    ease: "power3.out"
+});
 </script>
 
 
