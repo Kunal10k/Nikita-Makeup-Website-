@@ -598,6 +598,102 @@
 
 
 
+<section class="makeup_faq">
+    <div class="container">
+
+        <div class="section-heading text-center">
+            <h2 class="headline">Frequently Asked Questions</h2>
+            <p class="para">
+                Everything you need to know before booking your makeup experience.
+            </p>
+        </div>
+
+        <div class="accordion custom-accordion w-75 m-auto" id="makeupFaqAccordion">
+
+            <!-- FAQ Item -->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeadingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne">
+                        Do you offer a makeup trial?
+                    </button>
+                </h3>
+                <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#makeupFaqAccordion">
+                    <div class="accordion-body">
+                        Yes. Makeup trials can be arranged prior to your event and are highly recommended for brides who
+                        would like to explore and finalize their look in advance. Trial sessions are charged separately
+                        and are subject to availability.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#faqTwo">
+                        How far in advance should I book?
+                    </button>
+                </h3>
+                <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#makeupFaqAccordion">
+                    <div class="accordion-body">
+                        Wedding dates tend to book up several months in advance, especially during peak season. To avoid
+                        disappointment, I recommend securing your date as early as possible.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#faqThree">
+                        How can I confirm my booking?
+                    </button>
+                </h3>
+                <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#makeupFaqAccordion">
+                    <div class="accordion-body">
+                        A booking is confirmed upon receipt of a non-refundable retainer and completion of the booking
+                        formalities. Dates cannot be reserved without confirmation.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#faqFour">
+                        Do you travel for destination weddings?
+                    </button>
+                </h3>
+                <div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#makeupFaqAccordion">
+                    <div class="accordion-body">
+                        Absolutely. I am available for destination weddings across India and internationally. Travel and
+                        accommodation costs are quoted separately based on the event location.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#faqFive">
+                        What products do you use?
+                    </button>
+                </h3>
+                <div id="faqFive" class="accordion-collapse collapse" data-bs-parent="#makeupFaqAccordion">
+                    <div class="accordion-body">
+                        I work with a carefully curated selection of professional and luxury beauty products chosen for
+                        their performance, longevity, and skin compatibility. Products are selected based on your
+                        individual skin type and requirements.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
 <script>
     Fancybox.bind("[data-fancybox='gallery']", {
         animated: true,

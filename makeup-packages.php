@@ -16,7 +16,7 @@
     <div class="container">
 
         <!-- Section Heading -->
-        <div class="row justify-content-center text-center mb-5">
+        <div class="row justify-content-center text-center mb-2">
             <div class="col-lg-8">
                 <span class="sub-title">Luxury Makeup Artistry</span>
 
@@ -34,7 +34,7 @@
         </div>
 
         <!-- Bridal Makeup -->
-        <div class="row  service-item gy-5">
+        <div class="row  service-item gy-5" id="wedding">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -65,12 +65,13 @@
                         features, personal style, attire, and overall wedding vibe.
                     </p>
 
-                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                    <div class="mt-1">
 
 
-
-                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
-                    </button>
+                        <a href="contact.php" class="service-btn mt-3">
+                            <span> Book Now <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -83,7 +84,7 @@
         </div>
 
         <!-- Engagement & Reception -->
-        <div class="row  service-item gy-5 flex-lg-row-reverse">
+        <div class="row  service-item gy-5 flex-lg-row-reverse" id="Engagement">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -107,12 +108,13 @@
                     </div>
 
 
-                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                    <div class="mt-1">
 
 
-
-                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
-                    </button>
+                        <a href="contact.php" class="service-btn mt-3">
+                            <span> Book Now <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -125,7 +127,7 @@
         </div>
 
         <!-- Party Makeup -->
-        <div class="row  service-item gy-5">
+        <div class="row  service-item gy-5" id="Party">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -149,12 +151,13 @@
                         Starting From ₹9,500
                     </div>
 
-                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                    <div class="mt-1">
 
 
-
-                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
-                    </button>
+                        <a href="contact.php" class="service-btn mt-3">
+                            <span> Book Now <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -167,7 +170,7 @@
         </div>
 
         <!-- Editorial Makeup -->
-        <div class="row  service-item gy-5 flex-lg-row-reverse">
+        <div class="row  service-item gy-5 flex-lg-row-reverse" id="Destination">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -193,25 +196,26 @@
                     </div>
 
 
-                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                    <div class="mt-1">
 
 
-
-                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
-                    </button>
+                        <a href="contact.php" class="service-btn mt-3">
+                            <span> Book Now <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="service-image">
-                    <img src="assets/img/gallery/g1.jpg" alt="Editorial Makeup">
+                    <img src="assets\img\home\gallery/01- (5).jpeg" alt="Editorial Makeup">
                 </div>
             </div>
 
         </div>
 
         <!-- Destination Weddings -->
-        <div class="row  service-item gy-5">
+        <div class="row  service-item gy-5" id="dsa">
 
             <div class="col-lg-6">
                 <div class="service-content">
@@ -236,13 +240,13 @@
                         Pricing Available Upon Request
                     </div>
 
-
-                    <button class="service-btn ms-2 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
-
+                    <div class="mt-1">
 
 
-                        <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
-                    </button>
+                        <a href="contact.php" class="service-btn mt-3">
+                            <span> Book Now <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
                 </div>
             </div>
 

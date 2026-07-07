@@ -76,9 +76,19 @@
         <i class="fa-solid fa-arrow-up"></i>
     </button>
 
-    <a href="https://wa.me/919999999999" class="whatsapp-float" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
+    <div class="floating-contact">
+
+        <a href="https://wa.me/919999999999" class="floating-btn whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+
+        <a href="tel:+919999999999" class="floating-btn call">
+            <i class="fas fa-phone"></i>
+            <span>Call Now</span>
+        </a>
+
+    </div>
 
 
 
@@ -102,7 +112,7 @@
 
                     <button class="book-btn ms-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
-                        <i class="fa-solid fa-calendar-check"></i>
+
                         Book Now
 
                     </button>
@@ -224,7 +234,7 @@
 
 
 
-                                <span> Book Now <i class="fa-solid fa-calendar-check"></i></span>
+                                <span> Book Now </span>
                             </button>
 
 

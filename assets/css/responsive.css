@@ -117,6 +117,25 @@
     .carousel-caption p {
         font-size: 15px;
 
+        .bridal-cta-section {
+            height: 234px !important;
+
+        }
+
+
+
+    }
+
+    .carousel-indicators {
+
+        display: none;
+    }
+
+    .parallax-gallery .container {
+        width: 100%;
+        /* max-width: 1200px; */
+        margin: auto;
+        position: relative;
     }
 
     .service-item {
@@ -185,7 +204,7 @@
     }
 
     .header_gap {
-        height: 76px;
+        height: 67px;
     }
 
     .mission-content h4 {
@@ -196,10 +215,28 @@
         font-size: 35px;
     }
 
-    .bridal-cta-section {
-        height: auto;
+    .service-btn {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 9px 29px;
+        min-width: 177px;
+        height: 44px;
+        background: var(--ruby);
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 1px;
+        overflow: hidden;
+        cursor: pointer;
+        border: none;
+        z-index: 1;
+
 
     }
+
 
     .mission-content {
         margin: 61px auto 0;
@@ -251,7 +288,7 @@
     }
 
     .logo {
-        height: 50px;
+        height: 40px;
     }
 
     .book-btn2 {
@@ -260,9 +297,9 @@
         margin-top: 15px;
     }
 
-    .set_us {
+    /* .set_us {
         margin-top: 25px;
-    }
+    } */
 
     .center-img-box.im1 img {
         width: 70%;

@@ -32,17 +32,38 @@
 .navbar-brand {
     font-weight: bold;
     font-size: 22px;
-    color: #c2185b;
+    color: #AF2E2E;
 }
 
 .nav-link {
-    font-weight: 500;
+    position: relative;
+    display: inline-block;
     color: #333;
-    transition: 0.3s;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color .35s ease;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: #AF2E2E;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .35s ease;
 }
 
 .nav-link:hover {
-    color: #c2185b;
+    color: #AF2E2E;
+}
+
+.nav-link:hover::before,
+.nav-link.active::before {
+    transform: scaleX(1);
 }
 
 /* OFFCANVAS STYLE */
@@ -197,12 +218,12 @@
         .nav-link {
             position: relative;
             display: inline-block;
-            color: #222;
-            font-weight: 600;
+            color: #111;
+            font-weight: 500;
             text-decoration: none;
             transition: color .3s ease;
 
-            // Underline শুধুমাত্র normal menu এর জন্য
+
             &:not(.dropdown-toggle) {
 
                 &::after {

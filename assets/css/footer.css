@@ -153,8 +153,8 @@
 }
 
 .footer-social a:hover {
-    background: var(--blush);
-    border-color: var(--blush);
+    background: var(--ruby);
+    border-color: var(--ruby);
     transform: translateY(-4px);
 }
 

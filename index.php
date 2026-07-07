@@ -25,7 +25,7 @@
                 <div class="carousel-caption">
                     <h1>Luxury Beauty <br>& Makeup Studio</h1>
 
-                    <p class="para d-md-block d-none mb-4">
+                    <p class="para d-md-block d-none mb-2">
                         Use my passion and skills to bring out your features in a way
                         that feels natural and effortless — so you look confident and radiant.
                     </p>
@@ -34,7 +34,7 @@
 
 
 
-                        <a href="contact.php" class="service-btn mt-3">
+                        <a href="#" class="service-btn mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
                             <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
                         </a>
                         <!-- <button class="book-btn2">
@@ -52,13 +52,14 @@
                 <div class="carousel-caption">
                     <h1>Timeless & Flawless <br>Bridal Look</h1>
 
-                    <p class="para d-md-block d-none mb-4">
+                    <p class="para d-md-block d-none mb-2">
                         Professional makeup crafted to enhance your natural beauty
                         and create a stunning, camera-ready finish.
                     </p>
 
                     <div class="set_us">
-                        <a href="contact.php" class="service-btn mt-3">
+
+                        <a href="#" class="service-btn mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
                             <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
                         </a>
                         <!-- <button class="book-btn2">
@@ -76,13 +77,14 @@
                 <div class="carousel-caption">
                     <h1>Glow Like Never Before</h1>
 
-                    <p class="para d-md-block d-none mb-4">
+                    <p class="para d-md-block d-none mb-2">
                         From subtle elegance to glamorous transformation —
                         we create looks that truly stand out.
                     </p>
 
                     <div class="set_us">
-                        <a href="contact.php" class="service-btn mt-3">
+
+                        <a href="#" class="service-btn mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
                             <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
                         </a>
                         <!-- <button class="book-btn2">
@@ -150,15 +152,13 @@
 
                     <div class="set_us">
 
-                        <button class="book-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
-                            MAKE AN APPOINTMENT
+                        <a href="#" class="service-btn mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                            <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
 
-                        </button>
 
-                        <button class="book-btn2">
-                            VIEW OUR WORK
-                        </button>
+
 
                     </div>
 
@@ -187,15 +187,12 @@
 
                     <div class="set_us">
 
-                        <button class="book-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">
 
-                            MAKE AN APPOINTMENT
+                        <a href="#" class="service-btn mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                            <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
 
-                        </button>
 
-                        <button class="book-btn2">
-                            VIEW OUR WORK
-                        </button>
 
                     </div>
 
@@ -223,15 +220,11 @@
 
                     <div class="set_us">
 
-                        <button class="book-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        <a href="#" class="service-btn mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                            <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
 
-                            MAKE AN APPOINTMENT
 
-                        </button>
-
-                        <button class="book-btn2">
-                            VIEW OUR WORK
-                        </button>
 
                     </div>
 
@@ -322,8 +315,10 @@
 
             <div class="mt-1">
                 <a href="#" class="service-btn_re">
-                    <span>Read More</span>
+                    <span>Read More </span>
                 </a>
+
+
             </div>
 
             <!--<p class="para">-->
@@ -352,27 +347,43 @@
                 <img src="assets/img/home/slider-1 (1).jpeg" alt="Wedding Makeup">
 
                 <div class="desciptx">
-                    <h2>Wedding Makeup</h2>
+                    <h2>Bridal Makeup</h2>
                     <p class="para">
-                        Elegant, flawless bridal makeup enhancing natural beauty all day
+                        Timeless bridal makeup designed to enhance your natural beauty with a flawless, long-lasting finish for your special day.
                     </p>
-                    <a href="#">Read More</a>
+                    <div>
+                        <!-- <a href="makeup-packages#wedding">Read More</a> -->
+
+                        <div>
+                            <a href="makeup-packages#wedding" class="service-btn mt-3">
+                                <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
 
         <div class="parallax-row right">
             <div class="parallax-img">
-                <img src="assets/img/home/2.jpg" alt="Occasion Makeup">
+                <img src="assets/img/home/2.jpg" alt="Engagement & Reception">
 
 
 
                 <div class="desciptx">
-                    <h2>Occasion Makeup</h2>
+                    <h2>Engagement & Reception</h2>
                     <p class="para">
-                        Stylish makeup enhancing features perfectly for every special occasion look
+                        Picture-perfect makeup designed to keep you radiant and confident throughout your celebration.
                     </p>
-                    <a href="#">Read More</a>
+
+
+
+                    <div>
+                        <a href="makeup-packages#Engagement" class="service-btn mt-3">
+                            <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -381,13 +392,18 @@
             <div class="parallax-img">
                 <img src="assets/img/home/bride-is-getting-ready-her-wedding_981168-15205.avif" alt="Makeup Lessons">
 
-
                 <div class="desciptx">
-                    <h2>Makeup Lessons</h2>
+                    <h2>Party & Occasion Makeup</h2>
                     <p class="para">
-                        Personalized lessons for confident everyday makeup
+                        Glamorous, long-lasting makeup tailored to suit every party, celebration, and special occasion.
                     </p>
-                    <a href="#">Read More</a>
+
+
+                    <div>
+                        <a href="makeup-packages#Party" class="service-btn mt-3">
+                            <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -398,11 +414,39 @@
 
 
                 <div class="desciptx">
-                    <h2>Party Makeup</h2>
+                    <h2>Editorial & Photoshoot Makeup</h2>
                     <p class="para">
                         Personalized lessons for confident everyday makeup.
                     </p>
-                    <a href="#">Read More</a>
+
+                    <div>
+                        <a href="makeup-packages#Destination" class="service-btn mt-3">
+                            <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax-row left">
+            <div class="parallax-img">
+                <img src="assets\img\home\3.jpg" alt="Makeup Lessons">
+
+                <div class="desciptx">
+                    <h2>Destination Weddings
+                    </h2>
+                    <p class="para">
+                        Glamorous, long-lasting makeup tailored to suit every party, celebration, and special occasion.
+                    </p>
+
+
+                    <div>
+                        <a href="makeup-packages#dsa" class="service-btn mt-3">
+                            <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -598,7 +642,7 @@
 
 
 
-        <!-- <div class="photo_gallery owl-carousel d-block mt-3  d-md-none d-block">
+        <div class="photo_gallery owl-carousel  mt-3  d-md-none d-block">
 
             <div class="gallery-item">
                 <a href="assets/img/home/gallery/01- (1).jpeg" data-fancybox="gallery">
@@ -636,12 +680,12 @@
                 </a>
             </div>
 
-        </div> -->
+        </div>
 
-        <div class="service-marquee d-md-none d-block mt-3">
+        <!-- <div class="service-marquee d-md-none d-block mt-3">
             <div class="marquee-track">
 
-                <!-- Image group 1 -->
+              
                 <a href="assets/img/home/gallery/01- (1).jpeg" data-fancybox="gallery">
                     <img src="assets/img/home/gallery/01- (1).jpeg">
                 </a>
@@ -670,14 +714,15 @@
 
 
             </div>
-        </div>
+        </div> -->
 
 
-        <div class="gallery-btn text-center pt-5">
+        <div class="gallery-btn text-center pt-3">
+
 
 
             <a href="#" class="service-btn">
-                <span> VIEW FULL GALLERY <i class="fa-solid fa-arrow-right"></i></span>
+                <span>VIEW FULL GALLERY<i class="fa-solid fa-arrow-right"></i></span>
             </a>
         </div>
 
@@ -801,7 +846,7 @@
 
 
 
-
+<!-- 
 <section class="brand-shift">
     <div class="container">
 
@@ -837,8 +882,70 @@
             <span>EXPLORE THE EXPERIENCE <i class="fa-solid fa-arrow-right"></i></span>
         </a>
     </div>
-</section>
+</section> -->
 
+
+
+
+<section class="why-brides section-gap">
+    <div class="container">
+        <div class="why-wrapper">
+
+            <div class="left-content">
+                <span class="sub-title">Why Brides Choose Me</span>
+
+
+
+                <h2 class="headline"> Beauty that <span>feels like you</span></h2>
+
+                <p>
+                    More than just makeup my goal is to make you feel beautiful,
+                    confident and completely yourself on one of the most important
+                    days of your life.
+                </p>
+
+                <a href="#" class="service-btn">
+                    <span>Book Consultation <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+            </div>
+
+            <div class="right-content">
+
+                <div class="feature-card">
+                    <h4>Personalized Beauty</h4>
+                    <p>Every look is thoughtfully tailored to your unique features, personal style, outfit, and wedding vision.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h4>Natural Yet Elevated</h4>
+                    <p>My approach is centered on enhancing your natural beauty, creating timeless looks that feel effortlessly refined and authentically you.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h4>Long-Lasting & Camera-Ready</h4>
+                    <p>Designed to look flawless in person and on camera, your makeup remains fresh, comfortable, and radiant throughout your celebrations.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h4>A Calm & Seamless Experience</h4>
+                    <p>From consultation to the final touch, I strive to create a relaxed, organized, and enjoyable beauty experience on your special day.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h4>Luxury with Attention to Detail</h4>
+                    <p>Every detail is carefully considered from skin preparation to finishing touches for a polished and elevated result.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h4>Professional Hygiene Standards</h4>
+                    <p>Cleanliness and hygiene are non-negotiable. Every tool and product is thoroughly sanitised for your comfort and safety.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
 
@@ -957,37 +1064,37 @@
 
 
 <script>
-// Get All Images
-const galleryImages = document.querySelectorAll(".lux_gallery_img");
+    // Get All Images
+    const galleryImages = document.querySelectorAll(".lux_gallery_img");
 
-let currentImage = 0;
+    let currentImage = 0;
 
-// Hide All Images First
-galleryImages.forEach((img, index) => {
+    // Hide All Images First
+    galleryImages.forEach((img, index) => {
 
-    if (index !== 0) {
-        img.style.display = "none";
-    }
+        if (index !== 0) {
+            img.style.display = "none";
+        }
 
-});
+    });
 
-// Auto Change
-setInterval(() => {
+    // Auto Change
+    setInterval(() => {
 
-    // Hide Current Image
-    galleryImages[currentImage].style.display = "none";
+        // Hide Current Image
+        galleryImages[currentImage].style.display = "none";
 
-    // Remove Active Class
-    galleryImages[currentImage].classList.remove("active_img");
+        // Remove Active Class
+        galleryImages[currentImage].classList.remove("active_img");
 
-    // Next Image
-    currentImage = (currentImage + 1) % galleryImages.length;
+        // Next Image
+        currentImage = (currentImage + 1) % galleryImages.length;
 
-    // Show Next Image
-    galleryImages[currentImage].style.display = "block";
+        // Show Next Image
+        galleryImages[currentImage].style.display = "block";
 
-    // Add Active Class
-    galleryImages[currentImage].classList.add("active_img");
+        // Add Active Class
+        galleryImages[currentImage].classList.add("active_img");
 
-}, 3000);
+    }, 3000);
 </script>

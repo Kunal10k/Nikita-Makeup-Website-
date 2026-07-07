@@ -162,8 +162,13 @@
 
                         <!-- Submit -->
                         <div class="col-12">
-                            <button type="submit" class="btn btn-primary w-100">
-                                Submit Booking Request
+
+
+                            <button type="submit" class="service-btn">
+                                <span>
+                                    Submit Booking Request
+                                    <i class="fa-solid fa-arrow-right ms-2"></i>
+                                </span>
                             </button>
                         </div>
 
@@ -212,21 +217,21 @@
 
 
 <script>
-gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger);
 
-gsap.from(".home_abt_img", {
-    scrollTrigger: {
-        trigger: ".home_abt_img",
-        start: "top 85%",
-        toggleActions: "play none none none"
-    },
+    gsap.from(".home_abt_img", {
+        scrollTrigger: {
+            trigger: ".home_abt_img",
+            start: "top 85%",
+            toggleActions: "play none none none"
+        },
 
-    opacity: 0,
-    y: 120,
-    scale: 0.9,
-    duration: 1.2,
-    ease: "power3.out"
-});
+        opacity: 0,
+        y: 120,
+        scale: 0.9,
+        duration: 1.2,
+        ease: "power3.out"
+    });
 </script>
 
 

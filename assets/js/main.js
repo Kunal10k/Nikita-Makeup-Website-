@@ -154,15 +154,21 @@ $(document).ready(function(){
 
 
 
+
+
 $('.photo_gallery').owlCarousel({
     loop: true,
     margin: 10,
-    nav: false,
+    nav: true,
     dots: true,
+    navText: [
+        '<i class="fas fa-chevron-left"></i>',
+        '<i class="fas fa-chevron-right"></i>'
+    ],
 
     responsive: {
         0: {
-            items: 1   // 🔥 Mobile = 2 images
+            items: 1
         },
         600: {
             items: 3
@@ -172,7 +178,6 @@ $('.photo_gallery').owlCarousel({
         }
     }
 });
-
 
 
 

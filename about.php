@@ -20,15 +20,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-                <img src="assets/img/home/slider-1 (1).jpeg" alt="" class="img-fluid">
+                <img src="assets/img/abt.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-md-7 d-flex justify-content-center align-items-center">
+            <div class="col-md-7 ">
                 <div class="abut_desc">
                     <!-- <h3 class="headline">Because here, we do REAL resonant luxury that gives REAL receipts</h3> -->
                     <p class="para">
                         Hey!
                         I’m Nikita — but you can totally call me Nikki. I love when my brides and community think of me
-                        as their makeup bestie.
+                        as their makeup bestie. <br><br>
 
                         I’m a makeup artist based out of Kolkata, India, travelling globally for bridal bookings and
                         creative projects. Known for my soft glam, skin-like finishes, my approach to makeup is all
@@ -37,16 +37,16 @@
                         Every look is thoughtfully customised keeping in mind your skin type and texture, facial
                         features, outfit, jewellery, styling, personal preferences, and the overall vibe of your
                         celebration. Whether you’re someone who loves a classic traditional bridal look or a more
-                        modern, contemporary aesthetic, we’ll create something that feels authentic to you.
+                        modern, contemporary aesthetic, we’ll create something that feels authentic to you.<br><br>
 
                         I know how overwhelming wedding planning can get, which is why I aim to make your bridal
                         experience feel seamless, calm, and truly memorable from the very beginning. Beyond the makeup
                         itself, I want to bring a comforting, positive energy to your special day while ensuring the
-                        highest standards of hygiene, care, and personalised attention.
+                        highest standards of hygiene, care, and personalised attention.<br>
 
                         Over the past 6+ years, I’ve had the opportunity to work with brides across different skin
                         types, tones, and textures, and each experience has only strengthened my belief that makeup
-                        should enhance your confidence — never overpower you.
+                        should enhance your confidence — never overpower you.<br>
 
                         If this sounds like the experience you’ve been looking for, I’d love to connect with you. Book a
                         free consultation call with us, and let’s bring your dream bridal look to life together.
@@ -117,7 +117,7 @@
         </div>
     </div>
 </section>
-
+<!-- 
 <section class="every_Sec section-gap">
     <div class="container">
 
@@ -125,7 +125,7 @@
         <h2 class="headline m-auto w-75 text-center">Every single client I help has a <br> <span>unique story to
                 tell</span></h2>
 
-        <!-- <h3 class="abt_para text-center">Yet it’s our common threads that draw us together. </h3> -->
+       
 
         <div class="row mt-5">
 
@@ -171,7 +171,7 @@
 
         </div>
     </div>
-</section>
+</section> -->
 
 
 
