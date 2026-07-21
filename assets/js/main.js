@@ -196,3 +196,17 @@ setInterval(() => {
 
 
 
+
+
+$('.my_mobile_owl').owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 15,
+    nav: true,
+    dots: false,
+    autoplay: false,
+    navText: [
+        '<i class="fas fa-chevron-left"></i>',
+        '<i class="fas fa-chevron-right"></i>'
+    ]
+});

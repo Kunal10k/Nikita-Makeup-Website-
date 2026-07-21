@@ -1,6 +1,6 @@
 <?php include 'subpages/header.php' ?>
 
-<div class="inner_banner" style="background-image: url(./assets/img/about.jpeg);">
+<div class="inner_banner" style="background-image: url(./assets/img/ar.png);">
     <!-- <div class="container">
 
         <h6 class="sub_headline">
@@ -18,38 +18,21 @@
 
 <section class="abt_sec section-gap">
     <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <img src="assets/img/abt.jpg" alt="" class="img-fluid">
+        <div class="row g-5 ">
+            <div class="col-md-4 offset-md-1">
+                <img src="assets/img/Untitled design (22) (1).png" alt="" class="img-fluid">
             </div>
-            <div class="col-md-7 ">
+            <div class="col-md-7">
                 <div class="abut_desc">
-                    <!-- <h3 class="headline">Because here, we do REAL resonant luxury that gives REAL receipts</h3> -->
-                    <p class="para">
-                        Hey!
+                    <h3 class="headline mb-3">The face behind <i>The Brush</i></h3>
+                    <h6 class="mb-4">Hey!
                         I’m Nikita — but you can totally call me Nikki. I love when my brides and community think of me
-                        as their makeup bestie. <br><br>
+                        as their makeup bestie. </h6>
+                    <p class="para">
+                        I'm a Kolkata-based makeup artist travelling worldwide for bridal bookings and creative projects. Specialising in soft glam and skin-like finishes, I create timeless looks that enhance your natural beauty. Every look is thoughtfully customised to complement your skin, features, outfit, jewellery, and personal style—ensuring you feel like the best version of yourself.
 
-                        I’m a makeup artist based out of Kolkata, India, travelling globally for bridal bookings and
-                        creative projects. Known for my soft glam, skin-like finishes, my approach to makeup is all
-                        about creating looks that feel elevated, timeless, and most importantly — like you.
-
-                        Every look is thoughtfully customised keeping in mind your skin type and texture, facial
-                        features, outfit, jewellery, styling, personal preferences, and the overall vibe of your
-                        celebration. Whether you’re someone who loves a classic traditional bridal look or a more
-                        modern, contemporary aesthetic, we’ll create something that feels authentic to you.<br><br>
-
-                        I know how overwhelming wedding planning can get, which is why I aim to make your bridal
-                        experience feel seamless, calm, and truly memorable from the very beginning. Beyond the makeup
-                        itself, I want to bring a comforting, positive energy to your special day while ensuring the
-                        highest standards of hygiene, care, and personalised attention.<br>
-
-                        Over the past 6+ years, I’ve had the opportunity to work with brides across different skin
-                        types, tones, and textures, and each experience has only strengthened my belief that makeup
-                        should enhance your confidence — never overpower you.<br>
-
-                        If this sounds like the experience you’ve been looking for, I’d love to connect with you. Book a
-                        free consultation call with us, and let’s bring your dream bridal look to life together.
+                        <br> <br>
+                    <p>I believe your bridal journey should feel as beautiful as your wedding day. With 6+ years of experience, I focus on creating a calm, personalised, and hygienic experience while crafting makeup that enhances your confidence, never hides it. If you're looking for a bridal look that's elegant, effortless, and uniquely yours, I'd love to be a part of your special day. Book a complimentary consultation, and let's create your dream bridal look together.</p>
                     </p>
 
 

@@ -76,7 +76,7 @@
         <i class="fa-solid fa-arrow-up"></i>
     </button>
 
-    <div class="floating-contact">
+    <!-- <div class="floating-contact">
 
         <a href="https://wa.me/919999999999" class="floating-btn whatsapp">
             <i class="fab fa-whatsapp"></i>
@@ -88,7 +88,7 @@
             <span>Call Now</span>
         </a>
 
-    </div>
+    </div> -->
 
 
 

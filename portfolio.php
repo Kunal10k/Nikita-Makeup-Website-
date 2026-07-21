@@ -204,40 +204,85 @@
         <h3 class="headline text-center">
             Here, luxury doesn’t <span>have one look.</span>
         </h3>
+        <div class="d-md-block d-none">
+            <div class="my_grid_portfoli mt-4 ">
 
-        <div class="my_grid_portfoli mt-4">
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (1).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (1).jpg" alt="">
+                    </a>
+                </div>
 
-            <div class="my_items">
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (2).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (2).jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (3).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (3).jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (4).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (4).jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (5).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (5).jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (6).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (6).jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="my_mobile_owl owl-carousel mt-4 d-md-none d-block">
+
+            <div class="mobile_item">
                 <a href="assets/img/services/occa/oca-1 (1).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (1).jpg" alt="">
                 </a>
             </div>
 
-            <div class="my_items">
+            <div class="mobile_item">
                 <a href="assets/img/services/occa/oca-1 (2).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (2).jpg" alt="">
                 </a>
             </div>
 
-            <div class="my_items">
+            <div class="mobile_item">
                 <a href="assets/img/services/occa/oca-1 (3).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (3).jpg" alt="">
                 </a>
             </div>
 
-            <div class="my_items">
+            <div class="mobile_item">
                 <a href="assets/img/services/occa/oca-1 (4).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (4).jpg" alt="">
                 </a>
             </div>
 
-            <div class="my_items">
+            <div class="mobile_item">
                 <a href="assets/img/services/occa/oca-1 (5).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (5).jpg" alt="">
                 </a>
             </div>
 
-            <div class="my_items">
+            <div class="mobile_item">
                 <a href="assets/img/services/occa/oca-1 (6).jpg" data-fancybox="gallery">
                     <img src="assets/img/services/occa/oca-1 (6).jpg" alt="">
                 </a>

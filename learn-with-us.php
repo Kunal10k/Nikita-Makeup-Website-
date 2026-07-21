@@ -3,7 +3,7 @@
 
 
 
-<div class="inner_banner" style="background-image: url(./assets/img/inner/occa.jpeg);">
+<div class="inner_banner" style="background-image: url(./assets/img/wedding.png);">
     <div class="container">
 
         <!-- <h6 class="sub_headline">
@@ -392,52 +392,162 @@
 
 
 </section>
-
 <section class="my_portfolio section-gap">
     <div class="container">
 
         <h3 class="headline text-center">
             Here, luxury doesn’t <span>have one look.</span>
         </h3>
+        <div class="d-md-block d-none">
+            <div class="my_grid_portfoli mt-4 ">
 
-        <div class="my_grid_portfoli mt-4">
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (1).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (1).jpg" alt="">
+                    </a>
+                </div>
 
-            <div class="my_items">
-                <a href="assets/img/services/occa/oca-1 (1).jpg" data-fancybox="gallery">
-                    <img src="assets/img/services/occa/oca-1 (1).jpg" alt="">
-                </a>
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (2).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (2).jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (3).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (3).jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (4).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (4).jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (5).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (5).jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="my_items">
+                    <a href="assets/img/services/occa/oca-1 (6).jpg" data-fancybox="gallery">
+                        <img src="assets/img/services/occa/oca-1 (6).jpg" alt="">
+                    </a>
+                </div>
+
             </div>
 
-            <div class="my_items">
-                <a href="assets/img/services/occa/oca-1 (2).jpg" data-fancybox="gallery">
-                    <img src="assets/img/services/occa/oca-1 (2).jpg" alt="">
-                </a>
-            </div>
+        </div>
 
-            <div class="my_items">
-                <a href="assets/img/services/occa/oca-1 (3).jpg" data-fancybox="gallery">
-                    <img src="assets/img/services/occa/oca-1 (3).jpg" alt="">
-                </a>
-            </div>
 
-            <div class="my_items">
-                <a href="assets/img/services/occa/oca-1 (4).jpg" data-fancybox="gallery">
-                    <img src="assets/img/services/occa/oca-1 (4).jpg" alt="">
-                </a>
-            </div>
 
-            <div class="my_items">
-                <a href="assets/img/services/occa/oca-1 (5).jpg" data-fancybox="gallery">
-                    <img src="assets/img/services/occa/oca-1 (5).jpg" alt="">
-                </a>
-            </div>
 
-            <div class="my_items">
-                <a href="assets/img/services/occa/oca-1 (6).jpg" data-fancybox="gallery">
-                    <img src="assets/img/services/occa/oca-1 (6).jpg" alt="">
-                </a>
-            </div>
+        <div class="my_mobile_owl owl-carousel mt-4 d-md-none d-block owl-loaded owl-drag">
 
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="owl-stage-outer">
+                <div class="owl-stage" style="transform: translate3d(-933px, 0px, 0px); transition: all; width: 3732px;">
+                    <div class="owl-item cloned" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (4).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (4).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (5).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (5).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (6).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (6).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (1).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (1).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (2).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (2).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (3).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (3).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (4).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (4).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (5).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (5).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (6).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (6).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (1).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (1).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (2).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (2).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 296px; margin-right: 15px;">
+                        <div class="mobile_item">
+                            <a href="assets/img/services/occa/oca-1 (3).jpg" data-fancybox="gallery">
+                                <img src="assets/img/services/occa/oca-1 (3).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div>
+            <div class="owl-dots disabled"></div>
         </div>
     </div>
 </section>
@@ -445,11 +555,11 @@
 
 
 <script>
-Fancybox.bind("[data-fancybox='gallery']", {
-    animated: true,
-    showClass: "fancybox-fadeIn",
-    hideClass: "fancybox-fadeOut",
-});
+    Fancybox.bind("[data-fancybox='gallery']", {
+        animated: true,
+        showClass: "fancybox-fadeIn",
+        hideClass: "fancybox-fadeOut",
+    });
 </script>
 
 <?php include 'subpages/footer.php' ?>

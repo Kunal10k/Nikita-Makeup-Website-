@@ -7,6 +7,16 @@
         width: 100% !important;
     }
 
+    .carousel-caption {
+        position: absolute;
+        top: 31%;
+        left: 38px;
+        right: 0;
+        transform: translateY(-50%);
+        text-align: left;
+        max-width: 493px;
+    }
+
     .rajat-marquee-item {
         font-size: 20px;
 
@@ -111,6 +121,33 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
+
+    .parallax-row.right {
+        top: 0;
+    }
+
+    .vz {
+        position: relative;
+        top: 0 !important;
+    }
+
+    .bn {
+        position: relative;
+        top: 0 !important;
+    }
+
+    .jbc {
+        position: relative;
+        top: 0 !important;
+    }
+
+    .parallax-img img {
+        height: 100%;
+    }
+
+    .parallax-gallery {
+        height: 100% !important;
+    }
 }
 
 @media (max-width: 767px) {
@@ -120,10 +157,44 @@
         .bridal-cta-section {
             height: 234px !important;
 
+
+
         }
 
 
 
+
+
+    }
+
+
+
+    .story-sec {
+
+        grid-template-columns: 1fr !important;
+
+    }
+
+    .box_width {
+        width: 100%;
+    }
+
+    .bridal-benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+
+    .story-image {
+        position: absolute;
+        width: 377px !important;
+        height: 680px !important;
+        left: 25px !important;
+        top: -34% !important;
+    }
+
+    .story-right {
+        height: 435px;
     }
 
     .carousel-indicators {
@@ -188,7 +259,7 @@
     }
 
     .carousel-item img {
-        object-position: right;
+        object-position: top center;
     }
 
     .desciptx h2 {
@@ -213,6 +284,22 @@
 
     .main-title {
         font-size: 35px;
+    }
+
+    .abut_desc .para {
+        margin-top: 20px;
+    }
+
+    .cta_box {
+        width: 100% !important;
+    }
+
+    .headline {
+        font-size: 28px;
+    }
+
+    .custom-accordion {
+        width: 100% !important;
     }
 
     .service-btn {
@@ -243,7 +330,7 @@
     }
 
     .para {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .service-content p {
@@ -254,12 +341,12 @@
         font-size: 12px;
     }
 
-    .carousel-item {
+    /* .carousel-item {
         height: 80vh;
         min-height: 427px;
         position: relative;
         overflow: hidden;
-    }
+    } */
 
     .carousel-caption .book-btn {
         padding: 8px 18px;
@@ -304,5 +391,24 @@
     .center-img-box.im1 img {
         width: 70%;
         margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .story-sec {
+        display: grid;
+        grid-template-columns: 70% 38%;
+        width: 100%;
+        min-height: 680px;
+    }
+
+    .story-image {
+        position: absolute;
+        width: 480px;
+        height: 680px;
+        left: -239px;
+        top: 13%;
+        /* overflow: hidden; */
+        /* box-shadow: 0 35px 80px rgba(0, 0, 0, .18); */
     }
 }

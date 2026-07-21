@@ -19,11 +19,11 @@
 
             <!-- Slide 1 -->
             <div class="carousel-item active">
-                <img src="assets/img/s1- (3).jpeg" class="d-block w-100" alt="">
+                <img src="assets/img/desktop/01- (2).jpg" class="d-block w-100" alt="">
                 <div class="carousel-overlay"></div>
 
                 <div class="carousel-caption">
-                    <h1>Luxury Beauty <br>& Makeup Studio</h1>
+                    <h1>Luxury Beauty <br>& Makeup <span>Studio</span></h1>
 
                     <p class="para d-md-block d-none mb-2">
                         Use my passion and skills to bring out your features in a way
@@ -46,11 +46,12 @@
 
             <!-- Slide 2 -->
             <div class="carousel-item">
-                <img src="assets/img/s1- (2).jpeg" class="d-block w-100" alt="">
+                <img src="assets/img/desktop/01- (1).jpg" class="d-block w-100" alt="">
+
                 <div class="carousel-overlay"></div>
 
                 <div class="carousel-caption">
-                    <h1>Timeless & Flawless <br>Bridal Look</h1>
+                    <h1>Timeless & Flawless <br><span>Bridal Look</span></h1>
 
                     <p class="para d-md-block d-none mb-2">
                         Professional makeup crafted to enhance your natural beauty
@@ -71,11 +72,12 @@
 
             <!-- Slide 3 -->
             <div class="carousel-item">
-                <img src="assets/img/s1- (1).jpeg" class="d-block w-100" alt="">
+                <img src="assets/img/desktop/01- (3).jpg" class="d-block w-100" alt="">
+
                 <div class="carousel-overlay"></div>
 
                 <div class="carousel-caption">
-                    <h1>Glow Like Never Before</h1>
+                    <h1>Glow Like Never <br><span>Before</span></h1>
 
                     <p class="para d-md-block d-none mb-2">
                         From subtle elegance to glamorous transformation —
@@ -128,13 +130,13 @@
 
         </div>
 
-        <!-- Slides -->
+
         <div class="carousel-inner">
 
-            <!-- Slide 1 -->
+
             <div class="carousel-item active">
 
-                <img src="assets/img/mobile/01- (1).jpeg" class="d-block w-100" alt="">
+                <img src="assets/img/mb.png" class="d-block w-100" alt="">
 
                 <div class="carousel-overlay"></div>
 
@@ -166,10 +168,10 @@
 
             </div>
 
-            <!-- Slide 2 -->
+
             <div class="carousel-item">
 
-                <img src="assets/img/mobile/01- (2).jpeg" class="d-block w-100" alt="">
+                <img src="assets/img/m2 (1).png" class="d-block w-100" alt="">
 
                 <div class="carousel-overlay"></div>
 
@@ -200,17 +202,17 @@
 
             </div>
 
-            <!-- Slide 3 -->
+
             <div class="carousel-item">
 
-                <img src="assets/img/mobile/01- (3).jpeg" class="d-block w-100" alt="">
+                <img src="assets/img/m2 (2).png" class="d-block w-100" alt="">
 
                 <div class="carousel-overlay"></div>
 
                 <div class="carousel-caption">
 
                     <h1>
-                        Glow Like Never Before
+                        Glow Like <br>Never Before
                     </h1>
 
                     <p class="para d-md-block d-none mb-4">
@@ -234,7 +236,7 @@
 
         </div>
 
-        <!-- Controls -->
+
 
         <button class="carousel-control-prev d-md-block d-none" type="button" data-bs-target="#mobileHeroSlider"
             data-bs-slide="prev">
@@ -344,13 +346,13 @@
 
         <div class="parallax-row left">
             <div class="parallax-img">
-                <img src="assets/img/home/slider-1 (1).jpeg" alt="Wedding Makeup">
+                <img src="assets/img/wedding.jpg" alt="Wedding Makeup">
 
                 <div class="desciptx">
                     <h2>Bridal Makeup</h2>
-                    <p class="para">
+                    <!-- <p class="para">
                         Timeless bridal makeup designed to enhance your natural beauty with a flawless, long-lasting finish for your special day.
-                    </p>
+                    </p> -->
                     <div>
                         <!-- <a href="makeup-packages#wedding">Read More</a> -->
 
@@ -373,9 +375,9 @@
 
                 <div class="desciptx">
                     <h2>Engagement & Reception</h2>
-                    <p class="para">
+                    <!-- <p class="para">
                         Picture-perfect makeup designed to keep you radiant and confident throughout your celebration.
-                    </p>
+                    </p> -->
 
 
 
@@ -388,15 +390,15 @@
             </div>
         </div>
 
-        <div class="parallax-row left">
+        <div class="parallax-row left vz">
             <div class="parallax-img">
                 <img src="assets/img/home/bride-is-getting-ready-her-wedding_981168-15205.avif" alt="Makeup Lessons">
 
                 <div class="desciptx">
                     <h2>Party & Occasion Makeup</h2>
-                    <p class="para">
+                    <!-- <p class="para">
                         Glamorous, long-lasting makeup tailored to suit every party, celebration, and special occasion.
-                    </p>
+                    </p> -->
 
 
                     <div>
@@ -408,16 +410,16 @@
             </div>
         </div>
 
-        <div class="parallax-row right">
+        <div class="parallax-row right bn">
             <div class="parallax-img">
                 <img src="assets/img/home/follow-us/01- (2).jpeg" alt="Party Makeup">
 
 
                 <div class="desciptx">
                     <h2>Editorial & Photoshoot Makeup</h2>
-                    <p class="para">
+                    <!-- <p class="para">
                         Personalized lessons for confident everyday makeup.
-                    </p>
+                    </p> -->
 
                     <div>
                         <a href="makeup-packages#Destination" class="service-btn mt-3">
@@ -430,16 +432,16 @@
             </div>
         </div>
 
-        <div class="parallax-row left">
+        <div class="parallax-row left vz jbc">
             <div class="parallax-img">
                 <img src="assets\img\home\3.jpg" alt="Makeup Lessons">
 
                 <div class="desciptx">
                     <h2>Destination Weddings
                     </h2>
-                    <p class="para">
+                    <!-- <p class="para">
                         Glamorous, long-lasting makeup tailored to suit every party, celebration, and special occasion.
-                    </p>
+                    </p> -->
 
 
                     <div>
@@ -454,6 +456,8 @@
 
 
     </div>
+
+
 </section>
 <section class="insta-gallery-section section-gap">
     <div class="container">
@@ -886,7 +890,7 @@
 
 
 
-
+<!-- 
 <section class="why-brides section-gap">
     <div class="container">
         <div class="why-wrapper">
@@ -945,6 +949,217 @@
 
         </div>
     </div>
+</section> -->
+
+
+
+
+
+
+<!-- 
+<section class="bridal-section">
+    <div class="container">
+
+        <div class="bridal-content">
+
+            <span class="badge">Why Brides Choose Me
+            </span>
+
+            <h2 class="headline">Beauty that <br>feels like <br> you</h2>
+
+           
+
+            <div class="why-choose-list mt-5">
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Personalized Beauty</h4>
+                        <p>Every bridal look is thoughtfully tailored to your unique features, personal style, outfit, and wedding vision.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Natural Yet Elevated</h4>
+                        <p>My approach enhances your natural beauty with timeless makeup that feels elegant, refined, and authentically you.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-camera"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Long-Lasting & Camera-Ready</h4>
+                        <p>Professional techniques and premium products keep your makeup flawless throughout your wedding day and every photograph.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-spa"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>A Calm & Seamless Experience</h4>
+                        <p>From consultation to the final touch, every step is organised to create a relaxed and enjoyable bridal experience.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Luxury with Attention to Detail</h4>
+                        <p>Every detail is carefully considered, from skin preparation to the finishing touches, for a polished bridal look.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-shield-heart"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Professional Hygiene Standards</h4>
+                        <p>Every brush, tool, and product is professionally sanitised to ensure your comfort, safety, and peace of mind.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <a href="" class="service-btn mt-5 lux_submit_btn" type="submit">
+                <span> Book Consultation </span>
+            </a>
+
+        </div>
+
+        <div class="bridal-image">
+            <img src="assets/img/cx.jpg" alt="">
+        </div>
+
+    </div>
+</section> -->
+
+
+
+
+<section class="story-sec" style="overflow-x: hidden;">
+
+    <div class="story-left">
+
+        <div class="box_width">
+            <span class="top-title">
+                IF YOU ASKED ME TO CHOOSE ONE THING THAT I'VE LEARNED IN MY 15+ YEARS EXPERIENCE, IT WOULD BE:
+            </span>
+
+            <h2 class="headline mt-3">
+                Why Brides <i>Choose Me</i>
+
+            </h2>
+
+            <p>
+                More than just makeup my goal is to make you feel beautiful, confident and completely yourself on one of the most important days of your life.
+            </p>
+
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <section class="bridal-benefits-section">
+                        <div class="bridal-benefits-grid">
+
+                            <div class="bridal-benefit-card">
+                                <div class="bridal-benefit-icon">
+                                    <img src="assets/img/icon/glowing-skin (1).png" alt="">
+                                </div>
+                                <h4 class="bridal-benefit-title">
+                                    Personalized<br>Beauty
+                                </h4>
+                            </div>
+
+                            <div class="bridal-benefit-card">
+                                <div class="bridal-benefit-icon">
+                                    <img src="assets/img/icon/natural-ingredients (1).png" alt="">
+                                </div>
+                                <h4 class="bridal-benefit-title">
+                                    Natural Yet<br>Elevated
+                                </h4>
+                            </div>
+
+                            <div class="bridal-benefit-card">
+                                <div class="bridal-benefit-icon">
+                                    <img src="assets/img/icon/camera.png" alt="">
+                                </div>
+                                <h4 class="bridal-benefit-title">
+                                    Long-Lasting &<br>Camera-Ready
+                                </h4>
+                            </div>
+
+                            <div class="bridal-benefit-card">
+                                <div class="bridal-benefit-icon">
+                                    <img src="assets/img/icon/customer-reviews.png" alt="">
+                                </div>
+                                <h4 class="bridal-benefit-title">
+                                    A Calm & Seamless<br>Experience
+                                </h4>
+                            </div>
+
+                            <div class="bridal-benefit-card">
+                                <div class="bridal-benefit-icon">
+                                    <img src="assets/img/icon/diamond.png" alt="">
+                                </div>
+                                <h4 class="bridal-benefit-title">
+                                    Luxury with<br>Attention to Detail
+                                </h4>
+                            </div>
+
+                            <div class="bridal-benefit-card">
+                                <div class="bridal-benefit-icon">
+                                    <img src="assets/img/icon/hygiene.png" alt="">
+
+                                </div>
+                                <h4 class="bridal-benefit-title">
+                                    Professional<br>Hygiene Standards
+                                </h4>
+                            </div>
+
+                            <div class="bridal-benefit-card">
+                                <div class="bridal-benefit-icon">
+                                    <img src="assets/img/icon/check-mark.png" alt="">
+                                </div>
+                                <h4 class="bridal-benefit-title">
+                                    Available<br>Worldwide
+                                </h4>
+                            </div>
+
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="story-right">
+
+        <div class="story-image">
+            <img src="assets/img/home/2.jpg" alt="">
+        </div>
+
+
+    </div>
+
 </section>
 
 
@@ -976,9 +1191,9 @@
 
 
                 <h2 class="main-title">
-                    PERSONALITY,<br>
-                    EMOTIONAL ALIGNMENT,<br>
-                    AND <span>CONNECTION.</span>
+                    Personality,<br>
+                    Emotional Alignment,<br>
+                    and <span>Connection.</span>
                 </h2>
 
                 <p class="para">
@@ -1097,4 +1312,30 @@
         galleryImages[currentImage].classList.add("active_img");
 
     }, 3000);
+</script>
+
+
+<script>
+    const items = document.querySelectorAll(".accordion .item");
+
+    items.forEach(item => {
+
+        const btn = item.querySelector("button");
+
+        btn.addEventListener("click", () => {
+
+            if (item.classList.contains("active")) {
+                item.classList.remove("active");
+            } else {
+
+                items.forEach(i => {
+                    i.classList.remove("active");
+                });
+
+                item.classList.add("active");
+            }
+
+        });
+
+    });
 </script>

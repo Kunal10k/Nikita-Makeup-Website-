@@ -25,14 +25,15 @@
 
 .site-footer {
     position: relative;
-    background: url('../img/home/2.jpg') no-repeat center center/cover;
+    /* background: url('../img/home/2.jpg') no-repeat center center/cover; */
     font-family: var(--font-1);
     z-index: 1;
     background-attachment: fixed;
+    background-color: var(--ruby);
 }
 
 /* Overlay */
-.site-footer::before {
+/* .site-footer::before {
     content: "";
     position: absolute;
     top: 0;
@@ -40,11 +41,10 @@
     width: 100%;
     height: 100%;
 
-    /* Overlay color (black with opacity) */
     background: rgba(0, 0, 0, 0.7);
 
     z-index: -1;
-}
+} */
 
 /* GRID */
 
@@ -102,7 +102,8 @@
     font-size: 16px;
     letter-spacing: 1px;
     color: #fff;
-    font-family: "Neue helv light" !important;
+    font-family: var(--font4) !important;
+
 
 }
 
@@ -116,7 +117,8 @@
     color: #fff;
     transition: 0.3s ease;
 
-    font-family: "Neue helv light" !important;
+    font-family: var(--font4) !important;
+
 
 }
 
@@ -166,7 +168,8 @@
     letter-spacing: 2px;
     color: #fff;
     line-height: 1.8;
-    font-family: var(--font-3);
+    font-family: var(--font4) !important;
+
 
 }
 
@@ -183,7 +186,8 @@
     letter-spacing: 2px;
     color: #fff;
     transition: 0.3s ease;
-    font-family: var(--font-3);
+    font-family: var(--font4) !important;
+
 
 }
 
@@ -209,7 +213,8 @@
     text-decoration: none;
     letter-spacing: 1px;
     transition: 0.3s;
-    font-family: var(--font-3);
+    font-family: var(--font4) !important;
+
 
 }
 

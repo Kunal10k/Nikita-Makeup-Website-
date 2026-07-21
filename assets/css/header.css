@@ -1,29 +1,24 @@
+/* ===== ROOT VARIABLES (original) ===== */
 :root {
     --font-3: 'Cormorant Garamond', serif;
     --font4: 'Yantramanav', sans-serif;
     --headling: 45px;
     --subheding: 25px;
     --para: 15px;
-
     --pearl: #FFFDFA;
-
     --blush: #F4C5BD;
-
     --dusk: #C98D73;
-
     --glow: #F9E6DE;
-
     --caramel: #D7AD8B;
-
     --ruby: #AF2E2E;
 }
 
+/* ===== GLOBAL ===== */
 .dropdown-item {
     font-family: var(--font4);
 }
 
-/* HEADER STYLE */
-
+/* ===== HEADER / NAVBAR ===== */
 .navbar {
     background: #ffffff;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
@@ -35,6 +30,7 @@
     color: #AF2E2E;
 }
 
+/* ===== NAV LINKS (underline animation) ===== */
 .nav-link {
     position: relative;
     display: inline-block;
@@ -42,6 +38,8 @@
     font-weight: 500;
     text-decoration: none;
     transition: color .35s ease;
+    text-transform: uppercase;
+    font-family: var(--font4);
 }
 
 .nav-link::before {
@@ -66,8 +64,12 @@
     transform: scaleX(1);
 }
 
-/* OFFCANVAS STYLE */
+/* active state override */
+.navbar .nav-link.active {
+    color: var(--ruby) !important;
+}
 
+/* ===== OFFCANVAS ===== */
 .offcanvas {
     width: 260px;
 }
@@ -77,66 +79,29 @@
     padding: 12px 0;
 }
 
-.nav-link {
-    text-transform: uppercase;
-
-}
-
-.navbar .nav-link.active {
-    color: var(--ruby) !important;
-    /* তোমার brand color */
-}
-
-
+/* book button (primary) */
 .book-btn {
-
     background: var(--ruby);
     color: #fff;
     border: none;
     padding: 8px 22px;
-    /* border-radius: 40px; */
     font-size: 14px;
     font-weight: 500;
     display: inline-flex;
     align-items: center;
     gap: 6px;
     transition: 0.3s ease;
-
 }
-
-
 
 .book-btn:hover {
-
     background: var(--ruby);
     transform: translateY(-2px);
-
 }
 
-/* .offcanvas-header {
-    background-color: #C98D73;
-} */
-
-
-@media(max-width:991px) {
-
-    .book-btn {
-
-        width: 100%;
-
-    }
-
-}
-
-.dropdown-item {
-    text-transform: uppercase;
-}
-
+/* book button (offcanvas variant) */
 .book-btn2 {
-
     border: 1px solid #fff !important;
     color: #ffffff;
-    border: none;
     padding: 12px 30px;
     font-size: 18px;
     font-weight: 500;
@@ -145,63 +110,100 @@
     gap: 6px;
     transition: 0.3s ease;
     background-color: transparent;
-
 }
 
-
-
+/* close button (offcanvas) */
 .offcanvas-header .btn-close {
-    /* default style reset */
     opacity: 1;
     background-color: transparent;
-
-    /* make icon black */
     filter: brightness(0);
-
-    /* optional spacing (তোমার আগেরটা রাখা হলো) */
     padding: calc(var(--bs-offcanvas-padding-y) * .5) calc(var(--bs-offcanvas-padding-x) * .5);
     margin: calc(-.5 * var(--bs-offcanvas-padding-y)) calc(-.5 * var(--bs-offcanvas-padding-x)) calc(-.5 * var(--bs-offcanvas-padding-y)) auto;
-
-    /* smooth effect */
     transition: 0.3s ease;
 }
 
-/* hover effect */
 .offcanvas-header .btn-close:hover {
     transform: rotate(90deg);
     opacity: 0.7;
 }
 
-
-.navbar .nav-link {
+/* ===== DROPDOWN (inside navbar-nav) ===== */
+.navbar-nav .nav-item .nav-link {
     position: relative;
-    /* color: var(--ruby); */
-    transition: color 0.3s ease;
+    display: inline-block;
+    color: #111;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+/* underline for non-dropdown links */
+.navbar-nav .nav-item .nav-link:not(.dropdown-toggle)::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: var(--ruby);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .35s ease;
+}
+
+.navbar-nav .nav-item .nav-link:not(.dropdown-toggle):hover::after,
+.navbar-nav .nav-item .nav-link:not(.dropdown-toggle).active::after {
+    transform: scaleX(1);
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+    color: var(--ruby);
+}
+
+/* dropdown toggle arrow (FontAwesome) */
+.navbar-nav .nav-item .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-left: 8px;
+    font-size: 12px;
+    vertical-align: middle;
+    transition: transform .3s ease;
+}
+
+.navbar-nav .nav-item .dropdown-toggle[aria-expanded="true"]::after {
+    transform: rotate(180deg);
+}
+
+/* disable underline on dropdown toggle */
+.navbar-nav .nav-item .dropdown-toggle::before {
+    display: none;
+}
+
+/* dropdown menu */
+.navbar-nav .nav-item .dropdown-menu {
+    border: 0;
+    border-radius: 12px;
+    padding: 10px 0;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .08);
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+    transition: all .3s ease;
+    text-transform: uppercase;
     font-family: var(--font4);
 }
 
-/* underline create */
-/* .navbar .nav-link::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    width: 0;
-    height: 2px;
-    background: var(--ruby);
-    transition: width 0.3s ease;
-} */
-
-/* hover effect */
-/* .navbar .nav-link:hover::after {
-    width: 100%;
-} */
-
-/* optional hover color */
-.navbar .nav-link:hover {
-    color: var(--ruby) !important;
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    color: var(--ruby);
+    background: rgba(0, 0, 0, .04);
+    padding-left: 25px;
 }
 
+/* ===== STICKY TOP (fixed) ===== */
 .sticky-top {
     position: fixed;
     left: 0;
@@ -210,87 +212,9 @@
     z-index: 1020;
 }
 
-
-.navbar-nav {
-
-    .nav-item {
-
-        .nav-link {
-            position: relative;
-            display: inline-block;
-            color: #111;
-            font-weight: 500;
-            text-decoration: none;
-            transition: color .3s ease;
-
-
-            &:not(.dropdown-toggle) {
-
-                &::after {
-                    content: '';
-                    position: absolute;
-                    left: 0;
-                    bottom: -6px;
-                    width: 100%;
-                    height: 2px;
-                    background: var(--ruby);
-                    transform: scaleX(0);
-                    transform-origin: left;
-                    transition: transform .35s ease;
-                }
-
-                &:hover::after,
-                &.active::after {
-                    transform: scaleX(1);
-                }
-            }
-
-            &:hover,
-            &.active {
-                color: var(--ruby);
-            }
-        }
-
-        // Dropdown link
-        .dropdown-toggle {
-
-            &::after {
-                border: none;
-                content: "\f107";
-                font-family: "Font Awesome 6 Free";
-                font-weight: 900;
-                margin-left: 8px;
-                font-size: 12px;
-                vertical-align: middle;
-                transition: transform .3s ease;
-            }
-
-            &[aria-expanded="true"]::after {
-                transform: rotate(180deg);
-            }
-
-            // dropdown এ underline disable
-            &::before {
-                display: none;
-            }
-        }
-
-        .dropdown-menu {
-            border: 0;
-            border-radius: 12px;
-            padding: 10px 0;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, .08);
-
-            .dropdown-item {
-                padding: 10px 20px;
-                transition: all .3s ease;
-
-                &:hover {
-                    color: var(--ruby);
-                    background: rgba(0, 0, 0, .04);
-                    padding-left: 25px;
-                }
-            }
-        }
+/* ===== RESPONSIVE ===== */
+@media (max-width: 991px) {
+    .book-btn {
+        width: 100%;
     }
 }
