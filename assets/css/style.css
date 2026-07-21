@@ -176,7 +176,7 @@ li {
 }
 
 .section-gap {
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .abut_desc h6 {
@@ -336,7 +336,7 @@ ul {
     border-bottom: 1px solid #000;
     padding: 4px 18px;
     text-decoration: none;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     display: inline-block;
 }
 
@@ -577,7 +577,7 @@ h1 {
 }
 
 .service-content h5 b {
-    font-family: var(--font-4);
+    font-family: var(--font-heading);
 }
 
 /* ===============================
@@ -823,90 +823,78 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 14px 32px;
-    min-height: 54px;
-    background-color: var(--ruby);
+    /* min-height: 54px; */
+    background: #b83232;
     color: #fff !important;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
-    letter-spacing: 1.2px;
-    border: 1px solid rgba(255, 255, 255, .08);
-    border-radius: 10px;
+    letter-spacing: 1px;
+    border: 1px solid #b83232;
+    border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
-    isolation: isolate;
-    /* box-shadow: 0 10px 25px rgba(175, 46, 46, .28), 0 20px 45px rgba(0, 0, 0, .15), inset 0 1px 1px rgba(255, 255, 255, .15); */
-    transition: transform .45s cubic-bezier(.19, 1, .22, 1), box-shadow .45s ease, background .45s ease;
-    z-index: 99;
-
-    /* box-shadow:
-        0 10px 25px rgba(175, 46, 46, .28),
-        0 20px 45px rgba(0, 0, 0, .15),
-        inset 0 1px 1px rgba(255, 255, 255, .15); */
-
-    transition:
-        transform .45s cubic-bezier(.19, 1, .22, 1),
-        box-shadow .45s ease,
-        background .45s ease;
+    transition: all .45s ease;
+    z-index: 1;
 }
 
+.service-btn span,
+.parallax-img a span {
+    position: relative;
+    z-index: 2;
+    font-family: var(--font-body);
+    font-weight: 400;
+}
+
+/* Fill Animation */
 .service-btn::before,
 .parallax-img a::before {
     content: "";
     position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg,
-            #d94949,
-            #b93232,
-            #8c1f1f);
-    opacity: 0;
-    transition: opacity .45s ease;
-    z-index: -2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: #8f1f1f;
+    transition: height .45s ease;
+    z-index: -1;
 }
 
+/* Shine */
 .service-btn::after,
 .parallax-img a::after {
     content: "";
     position: absolute;
-    top: -60%;
+    top: 0;
     left: -120%;
-    width: 60%;
-    height: 220%;
-    background: linear-gradient(90deg,
-            transparent,
-            rgba(255, 255, 255, .45),
-            transparent);
-    transform: rotate(25deg);
-    transition: left .9s ease;
-    z-index: -1;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, .25);
+    transform: skewX(-25deg);
+    transition: .7s;
 }
 
 .service-btn:hover,
 .parallax-img a:hover {
     color: #fff !important;
-    text-decoration: none;
-    transform: translateY(-6px) scale(1.02);
-
-    box-shadow:
-        0 18px 35px rgba(175, 46, 46, .45),
-        0 30px 60px rgba(0, 0, 0, .22),
-        inset 0 1px 2px rgba(255, 255, 255, .18);
+    border-color: #8f1f1f;
+    box-shadow: 0 10px 30px rgba(184, 50, 50, .35);
 }
 
 .service-btn:hover::before,
 .parallax-img a:hover::before {
-    opacity: 1;
+    height: 100%;
 }
 
 .service-btn:hover::after,
 .parallax-img a:hover::after {
-    left: 180%;
+    left: 160%;
 }
 
 .service-btn:active,
 .parallax-img a:active {
-    transform: translateY(-2px) scale(.98);
+    transform: scale(.97);
 }
 
 
@@ -923,14 +911,21 @@ h1 {
 /* cover section  */
 
 .bridal-cta-section {
-    background: url("../img/zxc.png") center/cover no-repeat;
+    background: url("../img/zxc.png") center center / cover no-repeat;
+    background-attachment: fixed;
     height: 520px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    background-attachment: fixed;
 }
+
+@media (max-width: 991px) {
+    .bridal-cta-section {
+        background-attachment: scroll !important;
+    }
+}
+
 
 .portfolio_featured strong {
     font-family: var(--font-3);
@@ -1736,7 +1731,7 @@ h1 {
     font-size: 42px;
     font-weight: 500;
     margin-bottom: 20px;
-    font-family: var(--font-3);
+    font-family: var(--font-heading);
     text-transform: uppercase;
 }
 
@@ -2376,7 +2371,7 @@ h1 {
                 rgba(0, 0, 0, 0) 100%);
     } */
 
-    .carousel-caption {
+    /* .carousel-caption {
         position: absolute;
         top: 68%;
         left: 0;
@@ -2384,7 +2379,7 @@ h1 {
         transform: translateY(-50%);
         text-align: left;
         max-width: 600px;
-    }
+    } */
 }
 
 
@@ -2545,10 +2540,10 @@ h1 {
     position: relative;
     font-size: 30px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 1px;
     font-family: var(--font-3);
-    text-transform: uppercase;
+    text-transform: capitalize;
     z-index: 2;
     margin-bottom: 0;
 }
@@ -3237,9 +3232,13 @@ h1 {
     color: #fffdfdd6;
 }
 
+.enquiry-section .service-btn {
+    width: 100%;
+}
+
 .lux_textarea_field,
 .lux_input_field {
-    border: 1px solid #ffffff53;
+    border: 1px solid #ffffff0f;
     background: transparent;
 }
 
@@ -3444,7 +3443,7 @@ h1 {
     font-size: 24px;
     font-weight: 600;
     color: #000000;
-    font-family: var(--font-2);
+    font-family: var(--font-heading);
 
 
 
@@ -3509,10 +3508,22 @@ h1 {
 
 
 /* makeup faq  */
-
 .makeup_faq {
     position: relative;
     padding: 60px 0;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.makeup_faq::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("../img/faq.png") center center / cover no-repeat;
+    transform: translateZ(0);
+    will-change: auto;
+    pointer-events: none;
+    z-index: -1;
 }
 
 .makeup_faq .section-heading {
@@ -3520,59 +3531,59 @@ h1 {
 }
 
 .makeup_faq .accordion-item {
-    border: 1px solid #e5e5e5;
+    border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 12px;
     overflow: hidden;
     margin-bottom: 20px;
-    background: #fff;
+    background: rgba(255, 255, 255, .75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transform: translateZ(0);
 }
 
 .makeup_faq .accordion-button {
-    background: #fff;
+    background: transparent;
     color: #222;
     font-size: 18px;
     font-weight: 500;
     padding: 22px 60px 22px 25px;
+    border: 0;
     box-shadow: none;
-    border: none;
     letter-spacing: 1px;
     font-family: var(--font-4);
 }
 
 .makeup_faq .accordion-button:focus {
     box-shadow: none;
-    border: none;
 }
 
 .makeup_faq .accordion-button:not(.collapsed) {
-    background: #fff;
+    background: transparent;
     color: var(--primary-color);
-    box-shadow: none;
 }
 
 .makeup_faq .accordion-button::after {
     content: "\f067";
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-    background-image: none !important;
+    background-image: none;
     width: auto;
     height: auto;
-    transform: none;
     font-size: 18px;
     color: var(--primary-color);
+    transform: none;
 }
 
 .makeup_faq .accordion-button:not(.collapsed)::after {
     content: "\f068";
-    transform: none;
 }
 
 .makeup_faq .accordion-body {
     padding: 0 25px 25px;
+    margin-top: 20px;
     color: #111;
     font-size: 17px;
-    /* line-height: 1.8; */
-    margin-top: 20px;
+    background: transparent;
 }
 
 .service-some-details .para {
@@ -4367,6 +4378,12 @@ h1 {
         height: 67rem;
     }
 
+    .carousel-item {
+        height: 70vh;
+        min-height: 805px;
+
+    }
+
     .story-left h2 {
 
         font-size: 36px;
@@ -4393,6 +4410,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
+    padding-bottom: 30px;
 }
 
 .bridal-benefit-title {
@@ -4402,4 +4420,38 @@ h1 {
 
 .bridal-benefit-icon img {
     width: 20%;
+}
+
+/* Select Box */
+select,
+.form-select {
+    width: 100%;
+    height: 42px;
+    padding: 0 15px;
+    border: 1px solid #c5c5c5;
+    border-radius: 6px;
+    background: #fff;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    box-shadow: none !important;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: all .3s ease;
+}
+
+.carousel-indicators [data-bs-target] {
+
+    background-color: var(--ruby);
+
+}
+
+.brand-wrapper .mt-5 {
+    margin-top: 15px !important;
+}
+
+
+.gallery-btn {
+    margin-top: 30px;
 }

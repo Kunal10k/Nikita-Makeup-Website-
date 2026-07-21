@@ -7,15 +7,15 @@
         width: 100% !important;
     }
 
-    .carousel-caption {
-        position: absolute;
-        top: 31%;
-        left: 38px;
-        right: 0;
-        transform: translateY(-50%);
-        text-align: left;
-        max-width: 493px;
-    }
+    /* .carousel-caption {
+        position: absolute !important;
+        top: 30% !important;
+        left: 44px !important;
+        right: 0 !important;
+        transform: translateY(-50%) !important;
+        text-align: left !important;
+        max-width: 493px !important;
+    } */
 
     .rajat-marquee-item {
         font-size: 20px;
@@ -166,6 +166,47 @@
 
 
     }
+
+    .footer-policy a {
+        margin: 0px 4px;
+        font-size: 12px;
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: 0.3s;
+        font-family: var(--font4) !important;
+    }
+
+    .footer-policy {
+
+        padding-top: 20px;
+    }
+
+
+    .footer-grid {
+        padding: 40px 0 0;
+    }
+
+    .section-gap {
+        padding: 40px 0;
+    }
+
+
+    .carousel-caption h1 {
+        font-size: 33px;
+
+    }
+
+    .carousel-caption {
+        position: absolute;
+        left: 50%;
+        bottom: 5%;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 600px;
+        text-align: left;
+    }
+
 
 
 
@@ -325,6 +366,9 @@
     }
 
 
+
+
+
     .mission-content {
         margin: 61px auto 0;
     }
@@ -410,5 +454,69 @@
         top: 13%;
         /* overflow: hidden; */
         /* box-shadow: 0 35px 80px rgba(0, 0, 0, .18); */
+    }
+}
+
+
+@media only screen and (max-width: 475px) {
+    .carousel-caption {
+        position: absolute !important;
+        top: 75% !important;
+        left: 50% !important;
+        right: auto !important;
+        bottom: auto !important;
+        transform: translate(-50%, -50%) !important;
+
+        width: 100% !important;
+        max-width: 600px !important;
+
+        text-align: center !important;
+    }
+
+    .carousel-item {
+        height: 70vh;
+        min-height: 539px;
+    }
+
+    .mission-content {
+        margin: 30px auto 0;
+    }
+
+    .footer-bottom {
+        /* background: var(--caramel); */
+        color: #fcfcfc;
+        text-align: center;
+        padding: 18px;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        font-family: var(--font-2);
+    }
+
+    .abt_sec .col-md-7 {
+        margin-top: 10px;
+    }
+
+    .cta_abt {
+        padding: 50px 0;
+
+    }
+
+    .mission-section {
+        padding: 60px 20px;
+
+    }
+
+    .testimonial-wrapper {
+        gap: 28px;
+    }
+
+    .parallax-gallery .container {
+        padding: 0;
+    }
+
+    .parallax-row {
+        margin: 20px;
+
     }
 }

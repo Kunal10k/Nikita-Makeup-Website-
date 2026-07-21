@@ -149,7 +149,7 @@
         <div class="row">
             <div class="col-md-8 d-flex justify-content-center align-items-center">
                 <div class="ppt_se">
-                    <h2 class="headline"> FEATURED</h2>
+                    <h2 class="headline"> Featured</h2>
 
 
 

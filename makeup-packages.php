@@ -267,11 +267,11 @@
     <div class="container">
 
         <div class="alert border-0 shadow-sm p-4"
-            style="background:#fff1f1; border-left:5px solid var(--ruby)!important;">
+            style="background:#eefbf3; border-left:5px solid var(--success-color) !important;">
 
-            <i class="fa-solid fa-circle-info me-2" style="color:var(--ruby);"></i>
+            <i class="fa-solid fa-circle-check me-2" style="color:var(--success-color);"></i>
 
-            <strong style="color:var(--ruby);">Important Note:</strong>
+            <strong style="color:var(--success-color);">Important Note:</strong>
 
             <span class="text-dark">
                 Bookings are subject to date availability.
@@ -280,7 +280,6 @@
             </span>
 
         </div>
-
     </div>
 </section>
 

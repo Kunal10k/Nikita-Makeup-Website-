@@ -107,7 +107,7 @@
                     <img src="assets/img/logo.jpg" alt="" class="logo">
                 </a>
 
-
+                <!-- 
                 <li class="nav-item d-md-none d-block">
 
                     <button class="book-btn ms-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
@@ -117,7 +117,7 @@
 
                     </button>
 
-                </li>
+                </li> -->
 
 
                 <!-- MOBILE TOGGLE BUTTON -->

@@ -76,7 +76,7 @@
         </div>
 
         <div class="footer-bottom">
-            Designed by <span>Esspesoft</span>
+            © 2026 Nikki's Artistry. Crafted with Excellence by <span>EsspeSoft</span>.
         </div>
 
     </div>

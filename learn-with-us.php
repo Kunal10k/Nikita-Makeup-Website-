@@ -289,7 +289,7 @@
 
 
                 <!-- RIGHT ACCORDION -->
-                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 ">
 
                     <div class="s_box">
                         <h3 class="details-title mb-4">The <em>Details</em></h3>
@@ -546,8 +546,8 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div>
-            <div class="owl-dots disabled"></div>
+            <!-- <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div>
+            <div class="owl-dots disabled"></div> -->
         </div>
     </div>
 </section>

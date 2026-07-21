@@ -721,7 +721,7 @@
         </div> -->
 
 
-        <div class="gallery-btn text-center pt-3">
+        <div class="gallery-btn text-center ">
 
 
 
@@ -1057,7 +1057,7 @@
 
         <div class="box_width">
             <span class="top-title">
-                IF YOU ASKED ME TO CHOOSE ONE THING THAT I'VE LEARNED IN MY 15+ YEARS EXPERIENCE, IT WOULD BE:
+                Bridal Beauty That Looks Effortless and Feels Extraordinary
             </span>
 
             <h2 class="headline mt-3">

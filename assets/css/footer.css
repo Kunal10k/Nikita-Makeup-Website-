@@ -1,9 +1,31 @@
+@font-face {
+    font-family: 'Ridley';
+    src: url('https://static.showit.co/file/f5S7MkbXTPWU47Rb-2c61A/72210/ridleygroteskregular_normal_normal.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Royals Thin';
+    src: url('https://static.showit.co/file/Ya1gB7vBiwMXeC9oG9r5pg/72210/royalsserif-thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Royals Thin Italic';
+    src: url('https://static.showit.co/file/GmZG6mb1G3wpPWpDK_F-Eg/72210/royalsserif-thinitalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Neue Helv Light';
+    src: url('https://static.showit.co/file/G8IQlj-iQDilG51c1R-tXg/72210/neuehelvetica45light_normal_normal.woff') format('woff');
+}
+
+
+
 :root {
-    --font-1: "Playfair", serif;
+    --font-1: "Royals Thin", serif;
     --font-2: "Neue helv light" !important;
-    --font-3: 'Cormorant Garamond', serif;
-    --font4: 'Yantramanav', sans-serif;
-    --instrument-font: "Instrument Serif", serif;
+    /* --font-3: 'Cormorant Garamond', serif;
+    --font-2: 'Yantramanav', sans-serif;
+    --instrument-font: "Instrument Serif", serif; */
     --headling: 45px;
     --subheding: 25px;
     --para: 15px;
@@ -79,7 +101,7 @@
     color: #fff;
     position: relative;
     transition: 0.3s ease;
-    font-family: var(--font4) !important;
+    font-family: var(--font-2) !important;
 }
 
 .footer-links a::after {
@@ -102,7 +124,7 @@
     font-size: 16px;
     letter-spacing: 1px;
     color: #fff;
-    font-family: var(--font4) !important;
+    font-family: var(--font-2) !important;
 
 
 }
@@ -117,7 +139,7 @@
     color: #fff;
     transition: 0.3s ease;
 
-    font-family: var(--font4) !important;
+    font-family: var(--font-2) !important;
 
 
 }
@@ -168,7 +190,7 @@
     letter-spacing: 2px;
     color: #fff;
     line-height: 1.8;
-    font-family: var(--font4) !important;
+    font-family: var(--font-2) !important;
 
 
 }
@@ -186,7 +208,7 @@
     letter-spacing: 2px;
     color: #fff;
     transition: 0.3s ease;
-    font-family: var(--font4) !important;
+    font-family: var(--font-2) !important;
 
 
 }
@@ -213,7 +235,7 @@
     text-decoration: none;
     letter-spacing: 1px;
     transition: 0.3s;
-    font-family: var(--font4) !important;
+    font-family: var(--font-2) !important;
 
 
 }
@@ -232,8 +254,8 @@
     padding: 18px;
     font-size: 13px;
     letter-spacing: 2px;
-    text-transform: uppercase;
-
+    text-transform: capitalize;
+    font-family: var(--font-2);
 }
 
 .footer-bottom span {

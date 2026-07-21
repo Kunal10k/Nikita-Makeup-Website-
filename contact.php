@@ -1,6 +1,6 @@
 <?php include 'subpages/header.php' ?>
 
-<div class="inner_banner" style="background-image: url(./assets/img/nvzzz.png);">
+<div class="inner_banner" style="background-image: url(./assets/img/contact.png);">
     <!-- <div class="container">
 
         <h6 class="sub_headline">
