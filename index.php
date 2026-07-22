@@ -136,7 +136,7 @@
 
             <div class="carousel-item active">
 
-                <img src="assets/img/mb.png" class="d-block w-100" alt="">
+                <img src="assets/img/mobile/02- (2).jpg" class="d-block w-100" alt="">
 
                 <div class="carousel-overlay"></div>
 
@@ -147,7 +147,7 @@
                         & Makeup Studio
                     </h1>
 
-                    <p class="para d-md-block d-none mb-4">
+                    <!-- <p class="para d-md-block d-none mb-4">
                         Use my passion and skills to bring out your features in a way
                         that feels natural and effortless — so you look confident and radiant.
                     </p>
@@ -162,7 +162,7 @@
 
 
 
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -171,7 +171,8 @@
 
             <div class="carousel-item">
 
-                <img src="assets/img/m2 (1).png" class="d-block w-100" alt="">
+                <img src="assets/img/mobile/02- (1).jpg" class="d-block w-100" alt="">
+
 
                 <div class="carousel-overlay"></div>
 
@@ -187,7 +188,7 @@
                         and create a stunning, camera-ready finish.
                     </p>
 
-                    <div class="set_us">
+                    <!-- <div class="set_us">
 
 
                         <a href="#" class="service-btn mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
@@ -196,7 +197,7 @@
 
 
 
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -205,7 +206,7 @@
 
             <div class="carousel-item">
 
-                <img src="assets/img/m2 (2).png" class="d-block w-100" alt="">
+                <img src="assets/img/mobile/01-.jpg" class="d-block w-100" alt="">
 
                 <div class="carousel-overlay"></div>
 
@@ -220,7 +221,7 @@
                         we create looks that truly stand out.
                     </p>
 
-                    <div class="set_us">
+                    <!-- <div class="set_us">
 
                         <a href="#" class="service-btn mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
                             <span> MAKE AN APPOINTMENT <i class="fa-solid fa-arrow-right"></i></span>
@@ -228,7 +229,7 @@
 
 
 
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -259,7 +260,7 @@
 
 <div class="text-center py-4 headline_mobile">
 
-    <h1 class="headline">Makeup & Hair <br><span> By Nikki's Artistry</span></h1>
+    <h1 class="headline">Makeup & Hair <br><span> By <img src="assets/img/logo.jpg" alt="abt" width="250" class="m-auto bxz"></span></h1>
 
     <p class="para abt_para"> Bridal & celebrity makeup artist</p>
 
@@ -312,11 +313,11 @@
                 <!-- <h4>“It’s elevated, luxurious, emotional, warm, modern, and absolutely <b>unmistakably me</b>.”
                 </h4> -->
 
-                <img src="assets/img/logo.jpg" alt="abt" width="250" class="m-auto">
+
             </div>
 
             <div class="mt-1">
-                <a href="#" class="service-btn_re">
+                <a href="about.php" class="service-btn_re">
                     <span>Read More </span>
                 </a>
 
@@ -594,7 +595,7 @@
             <span>GALLERY</span>
 
             <h2 class="headline w-50 m-auto">
-                Professional care for your perfect <span>day</span>
+                Professional care for <br>your perfect <span>day</span>
             </h2>
 
         </div>
@@ -744,12 +745,13 @@
 
             <!-- Left Content -->
             <div class="testimonial-left">
-                <h2 class="headline">What my brides are <span>saying</span></h2>
+                <img src="assets/img/double-quotes.png" alt="" width="25">
+                <h2 class="headline">What my brides are <span><i>saying</i></span></h2>
                 <!-- <a href="#" class="read-btn">Read more</a> -->
 
-                <a href="#" class="service-btn mt-3">
+                <!-- <a href="#" class="service-btn mt-3">
                     <span>Contact Us <i class="fa-solid fa-arrow-right"></i></span>
-                </a>
+                </a> -->
             </div>
 
             <!-- Divider -->
@@ -1057,11 +1059,11 @@
 
         <div class="box_width">
             <span class="top-title">
-                Bridal Beauty That Looks Effortless and Feels Extraordinary
+                Bridal Beauty, Elevated
             </span>
 
             <h2 class="headline mt-3">
-                Why Brides <i>Choose Me</i>
+                Why Brides <br><i><span>Choose Me</span></i>
 
             </h2>
 
@@ -1074,73 +1076,70 @@
                 <div class="col-md-12">
 
                     <section class="bridal-benefits-section">
-                        <div class="bridal-benefits-grid">
+                        <div class="bride_box">
+                            <div class="bridal-benefits-grid">
 
-                            <div class="bridal-benefit-card">
-                                <div class="bridal-benefit-icon">
-                                    <img src="assets/img/icon/glowing-skin (1).png" alt="">
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/glowing-skin (1).png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Personalized<br>Beauty
+                                    </h4>
                                 </div>
-                                <h4 class="bridal-benefit-title">
-                                    Personalized<br>Beauty
-                                </h4>
-                            </div>
 
-                            <div class="bridal-benefit-card">
-                                <div class="bridal-benefit-icon">
-                                    <img src="assets/img/icon/natural-ingredients (1).png" alt="">
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/natural-ingredients (1).png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Natural Yet<br>Elevated
+                                    </h4>
                                 </div>
-                                <h4 class="bridal-benefit-title">
-                                    Natural Yet<br>Elevated
-                                </h4>
-                            </div>
 
-                            <div class="bridal-benefit-card">
-                                <div class="bridal-benefit-icon">
-                                    <img src="assets/img/icon/camera.png" alt="">
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/camera.png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Long-Lasting &<br>Camera-Ready
+                                    </h4>
                                 </div>
-                                <h4 class="bridal-benefit-title">
-                                    Long-Lasting &<br>Camera-Ready
-                                </h4>
-                            </div>
 
-                            <div class="bridal-benefit-card">
-                                <div class="bridal-benefit-icon">
-                                    <img src="assets/img/icon/customer-reviews.png" alt="">
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/customer-reviews.png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        A Calm & Seamless<br>Experience
+                                    </h4>
                                 </div>
-                                <h4 class="bridal-benefit-title">
-                                    A Calm & Seamless<br>Experience
-                                </h4>
-                            </div>
 
-                            <div class="bridal-benefit-card">
-                                <div class="bridal-benefit-icon">
-                                    <img src="assets/img/icon/diamond.png" alt="">
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/diamond.png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Luxury with<br>Attention to Detail
+                                    </h4>
                                 </div>
-                                <h4 class="bridal-benefit-title">
-                                    Luxury with<br>Attention to Detail
-                                </h4>
-                            </div>
 
-                            <div class="bridal-benefit-card">
-                                <div class="bridal-benefit-icon">
-                                    <img src="assets/img/icon/hygiene.png" alt="">
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/hygiene.png" alt="">
 
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Professional<br>Hygiene Standards
+                                    </h4>
                                 </div>
-                                <h4 class="bridal-benefit-title">
-                                    Professional<br>Hygiene Standards
-                                </h4>
-                            </div>
 
-                            <div class="bridal-benefit-card">
-                                <div class="bridal-benefit-icon">
-                                    <img src="assets/img/icon/check-mark.png" alt="">
-                                </div>
-                                <h4 class="bridal-benefit-title">
-                                    Available<br>Worldwide
-                                </h4>
-                            </div>
 
+
+                            </div>
                         </div>
+
+
                     </section>
 
                 </div>

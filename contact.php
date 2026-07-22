@@ -29,7 +29,7 @@
 
                 <h2 class="headline">
                     Not ready to book? please
-                    fill out my <span>enquiry form</span>
+                    fill out my <span><i>enquiry form</i></span>
                 </h2>
 
                 <p class="para">

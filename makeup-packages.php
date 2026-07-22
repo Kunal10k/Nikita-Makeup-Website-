@@ -38,7 +38,7 @@
 
             <div class="col-lg-6">
                 <div class="service-content">
-                    <h3 class="headline">Bridal Makeup</h3>
+                    <h3 class="headline">Bridal <span><i>Makeup</i></span></h3>
 
                     <p class="para">
                         Timeless, elevated bridal beauty tailored exclusively for you.
@@ -88,7 +88,7 @@
 
             <div class="col-lg-6">
                 <div class="service-content">
-                    <h3 class="headline">Engagement, Reception & Pre-Wedding Functions</h3>
+                    <h3 class="headline">Engagement, Reception & <span><i>Pre-Wedding Functions</i></span></h3>
 
                     <p class="para">
                         Sophisticated, soft-glam looks designed for your most memorable celebrations.
@@ -131,7 +131,7 @@
 
             <div class="col-lg-6">
                 <div class="service-content">
-                    <h3 class="headline">Party & Occasion Makeup</h3>
+                    <h3 class="headline">Party & <span><i>Occasion Makeup</i></span></h3>
 
                     <p class="para">
                         For weddings, festive celebrations, social events,
@@ -174,7 +174,7 @@
 
             <div class="col-lg-6">
                 <div class="service-content">
-                    <h3 class="headline"> Editorial & Photoshoot Makeup</h3>
+                    <h3 class="headline"> Editorial & <span><i>Photoshoot Makeup</i></span></h3>
 
                     <p class="para">
                         Camera-ready beauty crafted for brands, campaigns,
@@ -219,7 +219,7 @@
 
             <div class="col-lg-6">
                 <div class="service-content">
-                    <h3 class="headline">Destination Weddings</h3>
+                    <h3 class="headline">Destination <span><i>Weddings</i></span></h3>
 
                     <p class="para">
                         Available worldwide for destination weddings and

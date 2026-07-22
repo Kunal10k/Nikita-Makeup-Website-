@@ -1,6 +1,22 @@
+@media only screen and (max-width: 1024px) {
+    .story-image {
+        left: -151px !important;
+
+    }
+}
+
+
 @media (max-width: 991px) {
     .headline {
         font-size: 34px;
+    }
+
+    .story-image img {
+        width: 63%;
+        height: 500px;
+        display: block;
+        object-fit: contain;
+        object-position: center;
     }
 
     .gallery-header .headline {
@@ -157,14 +173,42 @@
         .bridal-cta-section {
             height: 234px !important;
 
-
-
         }
 
+    }
+
+    .bridal-cta-section {
+        height: 185px;
+
+    }
+
+    .testimonial-wrapper {
+
+        gap: 10px;
+    }
+
+    .testimonial-left img {
+        position: relative;
+        top: 2rem;
+        left: 2rem;
+        width: 12%;
+    }
+
+    .bride_box {
+        position: relative;
+        left: -25px;
+    }
+
+    .bridal-benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
 
 
-
-
+    .story-sec .headline {
+        font-size: 40px;
+        font-weight: 600;
     }
 
     .footer-policy a {
@@ -461,16 +505,56 @@
 @media only screen and (max-width: 475px) {
     .carousel-caption {
         position: absolute !important;
-        top: 75% !important;
+        top: 84% !important;
         left: 50% !important;
         right: auto !important;
         bottom: auto !important;
         transform: translate(-50%, -50%) !important;
-
         width: 100% !important;
         max-width: 600px !important;
-
         text-align: center !important;
+    }
+
+    .carousel-caption h1 {
+        font-size: 33px;
+        font-weight: 600 !important;
+    }
+
+    .story-image img {
+        width: 100% !important;
+
+    }
+
+    .story-image {
+        position: absolute;
+        width: 377px !important;
+        height: 680px !important;
+        left: 30px !important;
+        top: -34% !important;
+    }
+
+    .footer-email p {
+        margin-bottom: 12px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #fff;
+        font-family: var(--font-2) !important;
+    }
+
+    .top-title {
+        font-size: 11px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #5b433d;
+        margin-bottom: 35px;
+        line-height: 1.8;
+    }
+
+    .testimonial-left img {
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+        width: 12%;
     }
 
     .carousel-item {
@@ -517,6 +601,36 @@
 
     .parallax-row {
         margin: 20px;
+
+    }
+
+    .story-right {
+        height: 406px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+
+
+    .story-image {
+        left: 16px !important;
+
+    }
+
+    .story-left {
+        height: 57rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .story-image img {
+        width: 82%;
+        height: 500px;
+
+    }
+
+    .story-image {
+        left: 30px !important;
 
     }
 }

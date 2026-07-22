@@ -1,7 +1,37 @@
+@font-face {
+    font-family: 'Ridley';
+    src: url('https://static.showit.co/file/f5S7MkbXTPWU47Rb-2c61A/72210/ridleygroteskregular_normal_normal.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Royals Thin';
+    src: url('https://static.showit.co/file/Ya1gB7vBiwMXeC9oG9r5pg/72210/royalsserif-thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Royals Thin Italic';
+    src: url('https://static.showit.co/file/GmZG6mb1G3wpPWpDK_F-Eg/72210/royalsserif-thinitalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Neue Helv Light';
+    src: url('https://static.showit.co/file/G8IQlj-iQDilG51c1R-tXg/72210/neuehelvetica45light_normal_normal.woff') format('woff');
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ===== ROOT VARIABLES (original) ===== */
 :root {
-    --font-3: 'Cormorant Garamond', serif;
-    --font4: 'Yantramanav', sans-serif;
+    --font-3: 'Royals Thin', serif;
+    --font4: 'Neue Helv Light', sans-serif;
     --headling: 45px;
     --subheding: 25px;
     --para: 15px;

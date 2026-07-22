@@ -1,22 +1,11 @@
 <?php include 'subpages/header.php' ?>
 
-<div class="inner_banner" style="background-image: url(./assets/img/ar.png);">
-    <!-- <div class="container">
-
-        <h6 class="sub_headline">
-            WORK WITH ME: SARAH SHUTTLE
-        </h6>
-        <h1 class="inner_headline">
-            Luxury brand design services <br>
-            for ambitious founders... <br>
-
-            ...ready to elevate <strong>everything</strong>
-        </h1>
-    </div> -->
-</div>
+<!-- <div class="inner_banner" style="background-image: url(./assets/img/ar.png);">
+  
+</div> -->
 
 
-<section class="abt_sec section-gap">
+<section class="abt_sec section-gap" style="overflow: hidden;">
     <div class="container">
         <div class="row g-5 ">
             <div class="col-md-4 offset-md-1">
@@ -24,7 +13,7 @@
             </div>
             <div class="col-md-7">
                 <div class="abut_desc">
-                    <h3 class="headline mb-3">The face behind <i>The Brush</i></h3>
+                    <h3 class="headline mb-3">The face behind <i><span>The Brush</span></i></h3>
                     <h6 class="mb-4">Hey!
                         I’m Nikita — but you can totally call me Nikki. I love when my brides and community think of me
                         as their makeup bestie. </h6>
@@ -252,6 +241,215 @@
         </div>
 
     </div>
+</section>
+
+
+
+
+<section class="story-sec" style="overflow-x: hidden;">
+
+    <div class="story-left">
+
+        <div class="box_width">
+            <span class="top-title">
+                Bridal Beauty That Looks Effortless and Feels Extraordinary
+            </span>
+
+            <h2 class="headline mt-3">
+                Why Brides <br><i><span>Choose Me</span></i>
+
+            </h2>
+
+            <p>
+                More than just makeup my goal is to make you feel beautiful, confident and completely yourself on one of the most important days of your life.
+            </p>
+
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <section class="bridal-benefits-section">
+                        <div class="bride_box">
+                            <div class="bridal-benefits-grid">
+
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/glowing-skin (1).png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Personalized<br>Beauty
+                                    </h4>
+                                </div>
+
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/natural-ingredients (1).png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Natural Yet<br>Elevated
+                                    </h4>
+                                </div>
+
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/camera.png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Long-Lasting &<br>Camera-Ready
+                                    </h4>
+                                </div>
+
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/customer-reviews.png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        A Calm & Seamless<br>Experience
+                                    </h4>
+                                </div>
+
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/diamond.png" alt="">
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Luxury with<br>Attention to Detail
+                                    </h4>
+                                </div>
+
+                                <div class="bridal-benefit-card">
+                                    <div class="bridal-benefit-icon">
+                                        <img src="assets/img/icon/hygiene.png" alt="">
+
+                                    </div>
+                                    <h4 class="bridal-benefit-title">
+                                        Professional<br>Hygiene Standards
+                                    </h4>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+                    </section>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="story-right">
+
+        <div class="story-image">
+            <img src="assets/img/home/2.jpg" alt="">
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<section class="lux_mail_section">
+
+    <div class="container">
+        <div class="lux_mail_wrapper">
+
+            <!-- LEFT IMAGE -->
+
+            <div class="lux_mail_photo">
+
+                <!-- Active Image -->
+                <img class="lux_gallery_img active_img" src="assets/img/p-1 (1).jpg" alt="">
+
+                <!-- Hidden Images -->
+                <img class="lux_gallery_img" src="assets/img/p-1 (2).jpg" alt="">
+
+                <img class="lux_gallery_img" src="assets/img/p-1 (3).jpg" alt="">
+
+                <img class="lux_gallery_img" src="assets/img/niki.jpg" alt="">
+
+            </div>
+
+
+
+            <div class="lux_mail_content">
+
+
+                <h2 class="main-title">
+                    Personality,<br>
+                    Emotional Alignment,<br>
+                    and <span>Connection.</span>
+                </h2>
+
+                <p class="para">
+                    Discover brand insights, beautiful things that have caught my eye,
+                    history tangents, and the occasional cat cameo.
+                    From one creative soul to another.
+                </p>
+
+                <!-- FORM -->
+
+                <div class="lux_form_card mt-3">
+                    <form class="lux_form_group">
+
+                        <div class="row g-3">
+
+                            <!-- NAME -->
+                            <div class="col-md-6">
+                                <input type="text" class="lux_input_field form-control" placeholder="Full Name">
+                            </div>
+
+                            <!-- EMAIL -->
+                            <div class="col-md-6">
+                                <input type="email" class="lux_input_field form-control" placeholder="Email Address">
+                            </div>
+
+                            <!-- PHONE -->
+                            <div class="col-md-6">
+                                <input type="tel" class="lux_input_field form-control" placeholder="Phone Number">
+                            </div>
+
+                            <!-- DATE -->
+                            <div class="col-md-6">
+                                <input type="date" class="lux_input_field form-control">
+                            </div>
+
+                            <!-- TEXTAREA -->
+                            <div class="col-12">
+                                <textarea class="lux_textarea_field form-control"
+                                    placeholder="Write Your Message"></textarea>
+                            </div>
+
+                            <!-- BUTTON -->
+                            <div class="col-12">
+
+
+                                <button class="service-btn lux_submit_btn" type="submit">
+                                    <span> VIEW FULL GALLERY <i class="fa-solid fa-arrow-right"></i></span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
 </section>
 
 
